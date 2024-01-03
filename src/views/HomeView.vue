@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <header class="flex flex-col">
+    <img alt="Vue logo" src="@/assets/logo.svg" width="125" height="125" />
+  </header>
 </template>
