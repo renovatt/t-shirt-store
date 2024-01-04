@@ -1,32 +1,47 @@
 <script setup lang="ts">
-import Card from '@/components/the-card.vue';
+import ClothCard from '@/components/the-cloth-card.vue';
+import Banner from '@/components/the-banner.vue';
+import Filters from '@/components/the-filters.vue';
+import { onMounted, ref } from 'vue';
+import db from '../database/products.json'
+import type { RootProducts } from '@/@types';
 
+const products = ref<RootProducts[]>([])
+
+onMounted(() => {
+  products.value = db.products as RootProducts[];
+  console.log(products.value)
+})
 </script>
 
 <template>
-  <div>
-    <div class="flex h-60 w-full flex-col items-center justify-center bg-700">
-      <span class="text-9xl text-800">BANNERS</span>
-      <div class="flex">
-        <span class="text-7xl text-800">.</span>
-        <span class="text-7xl text-800">.</span>
-        <span class="text-7xl text-800">.</span>
-        <span class="text-7xl text-800">.</span>
-      </div>
-    </div>
-
-    <div class="flex flex-wrap items-center justify-between gap-2 bg-800 py-2">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
-  </div>
+  <section>
+    <Banner />
+    <Filters />
+    <article class="flex flex-wrap items-center justify-between gap-2 bg-800 py-2">
+      <ClothCard v-for="product in products" :key="product.id">
+        <template #image>
+          <img :src="product.images[0].src" />
+        </template>
+        <template #name>
+          {{ product.name }}
+        </template>
+        <template #price>
+          {{ product.price.toLocaleString('pt-BR', {
+            currency: 'BRL',
+            style: 'currency'
+          }) }}
+        </template>
+        <template #parcel>
+          {{ product.payments.creditcard.max_installment.parcel }}
+        </template>
+        <template #parcel_price>
+          {{ product.payments.creditcard.max_installment.parcel_price.toLocaleString('pt-BR', {
+            currency: 'BRL',
+            style: 'currency'
+          }) }}
+        </template>
+      </ClothCard>
+    </article>
+  </section>
 </template>
