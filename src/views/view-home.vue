@@ -8,25 +8,26 @@ import db from '../database/products.json'
 import type { RootProducts } from '@/@types';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
 import { useColorsStore } from '@/stores/useColorsStore';
+import { useSizesStore } from '@/stores/useSizesStore';
 
 const products = ref<RootProducts[]>([])
 
 const storeCategories = useCategoriesStore()
 const storeColors = useColorsStore()
+const storeSizes = useSizesStore()
 
 const filteredProducts = computed(() => {
   return products.value.filter(product => {
     let matchesCategory = storeCategories.category !== "Novidades" ? product.tags.includes(storeCategories.category.trim()) : true;
     let matchesColor = storeColors.colors.length > 0 ? storeColors.colors.includes(product.color.slug) : true;
-    // let matchesSize = selectedSize.value ? product.size === selectedSize.value : true;
+    let matchesSize = storeSizes.sizes.length > 0 ? storeSizes.sizes.includes(product.variation.attribute.slug) : true;
 
-    return matchesCategory && matchesColor;
+    return matchesCategory && matchesColor && matchesSize;
   });
 });
 
 onMounted(() => {
   products.value = db.products as RootProducts[];
-  console.log(products.value)
 })
 </script>
 

@@ -3,6 +3,7 @@ import { Plus, Minus, XCircle } from 'lucide-vue-next';
 import { computed, reactive, watch } from 'vue';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
 import { useColorsStore } from '@/stores/useColorsStore';
+import { useSizesStore } from '@/stores/useSizesStore';
 
 interface FilterSection {
   color: boolean;
@@ -10,10 +11,6 @@ interface FilterSection {
   category: boolean;
   [key: string]: boolean;
 }
-
-// interface SelectedCategories {
-//   [key: string]: boolean;
-// }
 
 interface SelectedSizes {
   [key: string]: boolean;
@@ -65,23 +62,48 @@ const filterInputColors = [
   },
 ]
 
-const filterInputsizes = ['2P', 'P', 'M', 'G', '2G', '3G', '4G',]
+const filterInputsizes = [
+  {
+    name: '2P',
+    slug: '2p',
+  },
+  {
+    name: 'P',
+    slug: 'p',
+  },
+  {
+    name: 'M',
+    slug: 'm',
+  },
+  {
+    name: 'G',
+    slug: 'g',
+  },
+  {
+    name: '2G',
+    slug: '2g',
+  },
+  {
+    name: '3G',
+    slug: '3g',
+  },
+  {
+    name: '4G',
+    slug: '4g',
+  },
+]
 
 const storeCategories = useCategoriesStore()
 const storeColors = useColorsStore()
+const storeSizes = useSizesStore()
 
 const filterSection: FilterSection = reactive({
   color: true,
   size: true,
   category: true,
 })
-// const selectedCategories: SelectedCategories = reactive({})
 const selectedColors: SelectColors = reactive({})
 const selectedSizes: SelectedSizes = reactive({})
-
-// const toggleCategory = (category: string) => {
-//   selectedCategories[category] = !selectedCategories[category]
-// }
 
 const toggleColor = (color: string) => {
   selectedColors[color] = !selectedColors[color]
@@ -91,10 +113,6 @@ const toggledSize = (size: string) => {
   selectedSizes[size] = !selectedSizes[size]
 }
 
-// const selectedCategoriesArray = computed(() => {
-//   return Object.keys(selectedCategories).filter(category => selectedCategories[category])
-// })
-
 const selectedColorsArray = computed(() => {
   return Object.keys(selectedColors).filter(color => selectedColors[color])
 })
@@ -103,16 +121,12 @@ const selectedSizesArray = computed(() => {
   return Object.keys(selectedSizes).filter(size => selectedSizes[size])
 })
 
-// watch(selectedCategories, () => {
-//   store.setCategories(selectedCategoriesArray.value)
-// })
-
 watch(selectedColors, () => {
   storeColors.setColors(selectedColorsArray.value)
 })
 
 watch(selectedSizes, () => {
-  console.log(selectedSizesArray.value)
+  storeSizes.setSizes(selectedSizesArray.value)
 })
 
 const isAccordion = (section: string) => computed(() => filterSection[section] ? 'flex' : 'hidden');
@@ -175,13 +189,12 @@ defineEmits(['close'])
         </span>
 
         <fieldset :class="isAccordion('size').value" class="flex flex-wrap gap-1">
-          <label :class="selectedSizes[size] ? 'checked' : ''"
+          <label :class="selectedSizes[size.slug] ? 'checked' : ''"
             class="relative flex h-10 w-28 items-center justify-center border border-700/20 bg-800 px-4 py-2 hover:bg-700 hover:text-800"
-            v-for="size in filterInputsizes" :key="size" :for="size">
-            <input @change="toggledSize(size)" :class="`appearance_input_reset`"
-              class="absolute inset-0 h-full w-full cursor-pointer border border-700/40" type="checkbox" :id="size"
-              :value="size">
-            <span>{{ size }}</span>
+            v-for="size in filterInputsizes" :key="size.slug" :for="size.slug">
+            <input @change="toggledSize(size.slug)" :class="`appearance_input_reset`"
+              class="absolute inset-0 h-full w-full cursor-pointer border border-700/40" type="checkbox" :id="size.slug">
+            <span>{{ size.name }}</span>
           </label>
         </fieldset>
       </section>
@@ -212,4 +225,4 @@ defineEmits(['close'])
   color: white;
   background-color: #1e1f20;
 }
-</style>@/stores/useCategoriesStore@/stores/useCategoriesStore
+</style>
