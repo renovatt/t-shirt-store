@@ -1,13 +1,31 @@
 <script setup lang="ts">
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
 
-const categories = [
-  "anime",
-  "games",
-  "informatica",
-  "pets",
-  "musica",
-  "tecnologia"
+const TendenciesCategories = [
+  {
+    name: 'Anime e Mangá',
+    slug: 'anime',
+  },
+  {
+    name: 'Games',
+    slug: 'games',
+  },
+  {
+    name: 'Informática',
+    slug: 'informatica',
+  },
+  {
+    name: 'Pets',
+    slug: 'pets',
+  },
+  {
+    name: 'Música',
+    slug: 'musica',
+  },
+  {
+    name: 'Tecnologia',
+    slug: 'tecnologia',
+  }
 ]
 
 const store = useCategoriesStore()
@@ -16,9 +34,9 @@ const store = useCategoriesStore()
 <template>
   <nav class="flex w-full items-center justify-center">
     <ul class="flex w-full items-center justify-between gap-4">
-      <li @click="store.setCategory(category)" v-for="category in categories" :key="category"
+      <li @click="store.setCategory(category.slug)" v-for="category in TendenciesCategories" :key="category.slug"
         class="cursor-pointer rounded-md text-center uppercase hover:opacity-80">
-        {{ category }}
+        {{ category.name }}
       </li>
     </ul>
   </nav>

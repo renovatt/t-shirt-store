@@ -21,12 +21,38 @@ interface SelectColors {
 }
 
 const filterInputCategories = [
-  "anime",
-  "games",
-  "informatica",
-  "pets",
-  "musica",
-  "tecnologia"
+  {
+    name: 'Anime e Mangá',
+    slug: 'anime',
+  },
+  {
+    name: 'Games',
+    slug: 'games',
+  },
+  {
+    name: 'Camiseta de Rock',
+    slug: 'rock',
+  },
+  {
+    name: 'Informática',
+    slug: 'informatica',
+  },
+  {
+    name: 'Pets',
+    slug: 'pets',
+  },
+  {
+    name: 'Música',
+    slug: 'musica',
+  },
+  {
+    name: 'Tecnologia',
+    slug: 'tecnologia',
+  },
+  {
+    name: 'Caveira',
+    slug: 'caveira',
+  }
 ]
 
 const filterInputColors = [
@@ -153,9 +179,10 @@ defineEmits(['close'])
 
         <fieldset :class="isAccordion('category').value" class="ml-6 flex flex-col items-start justify-center">
           <ul class="flex w-full flex-col items-start justify-center">
-            <li @click="storeCategories.setCategory(category); $emit('close')" v-for="category in filterInputCategories"
-              :key="category" class="cursor-pointer capitalize transition-all hover:opacity-80">
-              {{ category }}
+            <li @click="storeCategories.setCategory(category.slug); $emit('close')"
+              v-for="category in filterInputCategories" :key="category.slug"
+              class="cursor-pointer text-700 opacity-80 transition-all hover:opacity-100">
+              {{ category.name }}
             </li>
           </ul>
         </fieldset>
@@ -175,7 +202,7 @@ defineEmits(['close'])
             <input :style="{ backgroundColor: option.hexadecimal }" :class="`appearance_reset`"
               class="relative h-5 w-5 cursor-pointer rounded-full border border-700/40 before:rounded-full before:border-700/40 checked:before:border checked:before:bg-800"
               @change="toggleColor(option.slug)" type="checkbox" :name="option.name" :id="option.name">
-            <span>{{ option.name }}</span>
+            <span class="text-700 opacity-80 transition-all hover:opacity-100">{{ option.name }}</span>
           </label>
         </fieldset>
       </section>
