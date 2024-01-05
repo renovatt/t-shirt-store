@@ -2,6 +2,7 @@
 import { Plus, Minus, XCircle } from 'lucide-vue-next';
 import { computed, reactive, watch } from 'vue';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
+import { useColorsStore } from '@/stores/useColorsStore';
 
 interface FilterSection {
   color: boolean;
@@ -33,34 +34,41 @@ const filterInputCategories = [
 
 const filterInputColors = [
   {
-    color: '#e1e0da',
-    name: 'Mescla Banana'
+    hexadecimal: '#e1e0da',
+    name: 'Mescla Banana',
+    slug: 'mescla-banana'
   },
   {
-    color: '#000958',
-    name: 'Azul Marinho'
+    hexadecimal: '#000958',
+    name: 'Azul Marinho',
+    slug: 'azul-marinho'
   },
   {
-    color: '#2585b1',
-    name: 'Azul Genuino'
+    hexadecimal: '#2585b1',
+    name: 'Azul Genuino',
+    slug: 'azul-genuino'
   },
   {
-    color: '#bcbcbc',
-    name: 'Mescla Cinza'
+    hexadecimal: '#bcbcbc',
+    name: 'Mescla Cinza',
+    slug: 'mescla-cinza'
   },
   {
-    color: '#000000',
-    name: 'Preto'
+    hexadecimal: '#000000',
+    name: 'Preto',
+    slug: 'preto'
   },
   {
-    color: '#fff',
-    name: 'Off White'
+    hexadecimal: '#fafafa',
+    name: 'Off White',
+    slug: 'off-white'
   },
 ]
 
 const filterInputsizes = ['2P', 'P', 'M', 'G', '2G', '3G', '4G',]
 
-const store = useCategoriesStore()
+const storeCategories = useCategoriesStore()
+const storeColors = useColorsStore()
 
 const filterSection: FilterSection = reactive({
   color: true,
@@ -100,7 +108,7 @@ const selectedSizesArray = computed(() => {
 // })
 
 watch(selectedColors, () => {
-  console.log(selectedColorsArray.value)
+  storeColors.setColors(selectedColorsArray.value)
 })
 
 watch(selectedSizes, () => {
@@ -131,8 +139,8 @@ defineEmits(['close'])
 
         <fieldset :class="isAccordion('category').value" class="ml-6 flex flex-col items-start justify-center">
           <ul class="flex w-full flex-col items-start justify-center">
-            <li @click="store.setCategory(category); $emit('close')" v-for="category in filterInputCategories" :key="category"
-              class="cursor-pointer capitalize transition-all hover:opacity-80">
+            <li @click="storeCategories.setCategory(category); $emit('close')" v-for="category in filterInputCategories"
+              :key="category" class="cursor-pointer capitalize transition-all hover:opacity-80">
               {{ category }}
             </li>
           </ul>
@@ -150,9 +158,9 @@ defineEmits(['close'])
         <fieldset :class="isAccordion('color').value" class="ml-6 flex flex-col items-start justify-center">
           <label v-for="option in filterInputColors" :key="option.name"
             class="flex cursor-pointer items-center justify-center gap-2" :for="option.name">
-            <input :style="{ backgroundColor: option.color }" :class="`appearance_reset`"
+            <input :style="{ backgroundColor: option.hexadecimal }" :class="`appearance_reset`"
               class="relative h-5 w-5 cursor-pointer rounded-full border border-700/40 before:rounded-full before:border-700/40 checked:before:border checked:before:bg-800"
-              @change="toggleColor(option.name)" type="checkbox" :name="option.name" :id="option.name">
+              @change="toggleColor(option.slug)" type="checkbox" :name="option.name" :id="option.name">
             <span>{{ option.name }}</span>
           </label>
         </fieldset>

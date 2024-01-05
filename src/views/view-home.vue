@@ -3,17 +3,25 @@ import ClothCard from '@/components/the-cloth-card.vue';
 import Banner from '@/components/the-banner.vue';
 import Filters from '@/components/the-filters.vue';
 import CollectionBanner from '@/components/the-collection-banner.vue';
-import { computed, onMounted, ref, watch } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import db from '../database/products.json'
 import type { RootProducts } from '@/@types';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
+import { useColorsStore } from '@/stores/useColorsStore';
 
 const products = ref<RootProducts[]>([])
 
-const store = useCategoriesStore()
+const storeCategories = useCategoriesStore()
+const storeColors = useColorsStore()
 
-const filteredProductsByCategory = computed(() => {
-  return products.value.filter(product => store.category !== "Novidades" ? product.tags.includes(store.category.trim()) : product);
+const filteredProducts = computed(() => {
+  return products.value.filter(product => {
+    let matchesCategory = storeCategories.category !== "Novidades" ? product.tags.includes(storeCategories.category.trim()) : true;
+    let matchesColor = storeColors.colors.length > 0 ? storeColors.colors.includes(product.color.slug) : true;
+    // let matchesSize = selectedSize.value ? product.size === selectedSize.value : true;
+
+    return matchesCategory && matchesColor;
+  });
 });
 
 onMounted(() => {
@@ -28,7 +36,7 @@ onMounted(() => {
     <CollectionBanner />
     <Filters />
     <article class="flex flex-wrap items-center justify-between gap-2 bg-800 py-2">
-      <ClothCard v-for="product in filteredProductsByCategory" :key="product.id">
+      <ClothCard v-for="product in filteredProducts" :key="product.id">
         <template #image>
           <img :src="product.images[0].src" />
         </template>
