@@ -1,0 +1,6890 @@
+[
+  {
+    "id": 5130335,
+    "name": "Camiseta Cyber Skull",
+    "slug": "camiseta-cyber-skull",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta skull,caveira,caveiras,camiseta caveira,skulls",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/jm8ctdfmncgmrk9gdrbzbocxei1kn4a9mkj2.jpg?v=1696851889",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/i8jpsqkwxfkk3raqapcjkqduogyf00thrdxs.jpg?v=1696851891",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/630e0zigewxjo9awvtwtwvxbucg4jtfjegm1.jpg?v=1696851893",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-cyber-skull/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-cyber-skull/preto",
+    "balance": 4,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 15679817,
+      "name": "Camiseta Cyber Skull",
+      "slug": "camiseta-cyber-skull",
+      "gtin": null,
+      "product_id": 5130335,
+      "color_id": 6765,
+      "grid_id": "5130335-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/jm8ctdfmncgmrk9gdrbzbocxei1kn4a9mkj2.jpg?v=1696851889",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/i8jpsqkwxfkk3raqapcjkqduogyf00thrdxs.jpg?v=1696851891",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/630e0zigewxjo9awvtwtwvxbucg4jtfjegm1.jpg?v=1696851893",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/jm8ctdfmncgmrk9gdrbzbocxei1kn4a9mkj2.jpg?v=1696851889",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 4,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-cyber-skull/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/jm8ctdfmncgmrk9gdrbzbocxei1kn4a9mkj2.jpg?v=1696851889",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5130335-6765",
+    "release_date": null,
+    "created_at": "2023-10-09 08:45:07"
+  },
+  {
+    "id": 4369310,
+    "name": "Camiseta Ink Skulls",
+    "slug": "camiseta-ink-skulls",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "caveira,skull,caveiras,skulls",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/vgffyasw1c9mwe4d6uh6bsjmia7jsjsbwzma.jpg?v=1683639245",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yppavo0lcqtd32rmxyaybrwpiqihocwkitwl.jpg?v=1683639247",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/xe6uco6uoralpi30sxrolwlkjbopmf88a4no.jpg?v=1683639248",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-ink-skulls/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-ink-skulls/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 13622950,
+      "name": "Camiseta Ink Skulls",
+      "slug": "camiseta-ink-skulls",
+      "gtin": null,
+      "product_id": 4369310,
+      "color_id": 6762,
+      "grid_id": "4369310-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6130,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/vgffyasw1c9mwe4d6uh6bsjmia7jsjsbwzma.jpg?v=1683639245",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/yppavo0lcqtd32rmxyaybrwpiqihocwkitwl.jpg?v=1683639247",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/xe6uco6uoralpi30sxrolwlkjbopmf88a4no.jpg?v=1683639248",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/vgffyasw1c9mwe4d6uh6bsjmia7jsjsbwzma.jpg?v=1683639245",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6130,
+        "name": "3G",
+        "slug": "3g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-ink-skulls/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/vgffyasw1c9mwe4d6uh6bsjmia7jsjsbwzma.jpg?v=1683639245",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "4369310-6762",
+    "release_date": null,
+    "created_at": "2023-05-09 10:34:16"
+  },
+  {
+    "id": 3770849,
+    "name": "Camiseta Nature's Sculpture",
+    "slug": "camiseta-natures-sculpture",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,caveira,caveiras,skulls",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/t2iqf69cdduposiw0atkhzivwnmktvlxbuso.jpg?v=1671218999",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ddqasviwdkkw8iypy64jxir5uhwkvq0duflg.jpg?v=1671219000",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mvxiguoxto7ffpixbpvpfm6dn8n2ycjsjbh0.jpg?v=1671219001",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-natures-sculpture/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-natures-sculpture/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11900034,
+      "name": "Camiseta Nature's Sculpture",
+      "slug": "camiseta-natures-sculpture",
+      "gtin": null,
+      "product_id": 3770849,
+      "color_id": 6765,
+      "grid_id": "3770849-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/t2iqf69cdduposiw0atkhzivwnmktvlxbuso.jpg?v=1671218999",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ddqasviwdkkw8iypy64jxir5uhwkvq0duflg.jpg?v=1671219000",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/mvxiguoxto7ffpixbpvpfm6dn8n2ycjsjbh0.jpg?v=1671219001",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/t2iqf69cdduposiw0atkhzivwnmktvlxbuso.jpg?v=1671218999",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-natures-sculpture/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/t2iqf69cdduposiw0atkhzivwnmktvlxbuso.jpg?v=1671218999",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3770849-6765",
+    "release_date": null,
+    "created_at": "2022-12-16 16:30:07"
+  },
+  {
+    "id": 3770834,
+    "name": "Camiseta End Of The Game",
+    "slug": "camiseta-end-of-the-game",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira,caveiras",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/opsihhbco6kd5yiiaq9hoimlohmzycdrtzzs.jpg?v=1671218934",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qdxkdslivyyxhtjgewfbrtp3aq3d1mh639ee.jpg?v=1671218935",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yl3n7zetnxow0osk2crzu0uq1qm5hcmbdgof.jpg?v=1671218936",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-end-of-the-game/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-end-of-the-game/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11899958,
+      "name": "Camiseta End Of The Game",
+      "slug": "camiseta-end-of-the-game",
+      "gtin": null,
+      "product_id": 3770834,
+      "color_id": 6762,
+      "grid_id": "3770834-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/opsihhbco6kd5yiiaq9hoimlohmzycdrtzzs.jpg?v=1671218934",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qdxkdslivyyxhtjgewfbrtp3aq3d1mh639ee.jpg?v=1671218935",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/yl3n7zetnxow0osk2crzu0uq1qm5hcmbdgof.jpg?v=1671218936",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/opsihhbco6kd5yiiaq9hoimlohmzycdrtzzs.jpg?v=1671218934",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-end-of-the-game/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/opsihhbco6kd5yiiaq9hoimlohmzycdrtzzs.jpg?v=1671218934",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3770834-6762",
+    "release_date": null,
+    "created_at": "2022-12-16 16:29:01"
+  },
+  {
+    "id": 3770830,
+    "name": "Camiseta Beauty And Death",
+    "slug": "camiseta-beauty-and-death",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira,caveiras",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/lqxbvb3ozh20mvppyzivl0lsbvv9bed4ywuh.jpg?v=1671218866",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/o9lmcmgfly3eewhh5px01btmphvszc3dr60b.jpg?v=1671218867",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qfo7yqwzqznmcfxfwir9r96t2ryxw7k8sfa5.jpg?v=1671218868",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6764,
+      "name": "Azul Marinho",
+      "slug": "azul-marinho",
+      "image": null,
+      "hexadecimal": "#000958",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6764,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": "/camiseta-beauty-and-death/azul-marinho",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-beauty-and-death/azul-marinho",
+    "balance": 19,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11899934,
+      "name": "Camiseta Beauty And Death",
+      "slug": "camiseta-beauty-and-death",
+      "gtin": null,
+      "product_id": 3770830,
+      "color_id": 6764,
+      "grid_id": "3770830-6764",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/lqxbvb3ozh20mvppyzivl0lsbvv9bed4ywuh.jpg?v=1671218866",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/o9lmcmgfly3eewhh5px01btmphvszc3dr60b.jpg?v=1671218867",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qfo7yqwzqznmcfxfwir9r96t2ryxw7k8sfa5.jpg?v=1671218868",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/lqxbvb3ozh20mvppyzivl0lsbvv9bed4ywuh.jpg?v=1671218866",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 19,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-beauty-and-death/azul-marinho",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/lqxbvb3ozh20mvppyzivl0lsbvv9bed4ywuh.jpg?v=1671218866",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3770830-6764",
+    "release_date": null,
+    "created_at": "2022-12-16 16:27:54"
+  },
+  {
+    "id": 3718440,
+    "name": "Camiseta We're All The Same",
+    "slug": "camiseta-were-all-the-same",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "caveira,skull,skulls",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/glnb8kalkxnkmcnxbd6cmrcndibapb6ayxkw.jpg?v=1669836973",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hrjexeavialxbm3wabx2uaruidyrkicvynyg.jpg?v=1669836974",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hteuzhzylar6whrrop04gwymb6boqxsaczax.jpg?v=1669836976",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6767,
+      "name": "Mescla Cinza",
+      "slug": "mescla-cinza",
+      "image": null,
+      "hexadecimal": "#bcbcbc",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6767,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": "/camiseta-were-all-the-same/mescla-cinza",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-were-all-the-same/mescla-cinza",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11732940,
+      "name": "Camiseta We're All The Same",
+      "slug": "camiseta-were-all-the-same",
+      "gtin": null,
+      "product_id": 3718440,
+      "color_id": 6767,
+      "grid_id": "3718440-6767",
+      "color_secondary_id": null,
+      "attribute_value_id": 6130,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/glnb8kalkxnkmcnxbd6cmrcndibapb6ayxkw.jpg?v=1669836973",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/hrjexeavialxbm3wabx2uaruidyrkicvynyg.jpg?v=1669836974",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/hteuzhzylar6whrrop04gwymb6boqxsaczax.jpg?v=1669836976",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/glnb8kalkxnkmcnxbd6cmrcndibapb6ayxkw.jpg?v=1669836973",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6130,
+        "name": "3G",
+        "slug": "3g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-were-all-the-same/mescla-cinza",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/glnb8kalkxnkmcnxbd6cmrcndibapb6ayxkw.jpg?v=1669836973",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3718440-6767",
+    "release_date": null,
+    "created_at": "2022-11-30 16:36:28"
+  },
+  {
+    "id": 3714624,
+    "name": "Camiseta Pixel Skull",
+    "slug": "camiseta-pixel-skull",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "caveira,skull",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/sh0871bpad1splbgotxqbhhimtas1scoblja.jpg?v=1669745861",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/orpqbdww5hpgormdl1fqlznpgmb1fwvgkxvl.jpg?v=1669745863",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8bdh0qrbdy3e6fwb8ajaxdnhabfdrnddhpfe.jpg?v=1669745864",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-pixel-skull/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-pixel-skull/preto",
+    "balance": 19,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11721459,
+      "name": "Camiseta Pixel Skull",
+      "slug": "camiseta-pixel-skull",
+      "gtin": null,
+      "product_id": 3714624,
+      "color_id": 6765,
+      "grid_id": "3714624-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/sh0871bpad1splbgotxqbhhimtas1scoblja.jpg?v=1669745861",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/orpqbdww5hpgormdl1fqlznpgmb1fwvgkxvl.jpg?v=1669745863",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8bdh0qrbdy3e6fwb8ajaxdnhabfdrnddhpfe.jpg?v=1669745864",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/sh0871bpad1splbgotxqbhhimtas1scoblja.jpg?v=1669745861",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 19,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-pixel-skull/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/sh0871bpad1splbgotxqbhhimtas1scoblja.jpg?v=1669745861",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3714624-6765",
+    "release_date": null,
+    "created_at": "2022-11-29 15:18:02"
+  },
+  {
+    "id": 3510797,
+    "name": "Camiseta Everything Ends Someday",
+    "slug": "camiseta-everything-ends-someday",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveiras",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qm3c5acisdrhqvtpomddfh03pi5cerkmhj63.jpg?v=1666120813",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/bzmvpqyheurivff7fabgdfepxycze5j1xrdl.jpg?v=1666120814",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hzgf7rqvpqvi8ad9thqsultmvxwke8adgetf.jpg?v=1666120815",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-everything-ends-someday/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-everything-ends-someday/preto",
+    "balance": 19,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11218332,
+      "name": "Camiseta Everything Ends Someday",
+      "slug": "camiseta-everything-ends-someday",
+      "gtin": null,
+      "product_id": 3510797,
+      "color_id": 6765,
+      "grid_id": "3510797-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qm3c5acisdrhqvtpomddfh03pi5cerkmhj63.jpg?v=1666120813",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/bzmvpqyheurivff7fabgdfepxycze5j1xrdl.jpg?v=1666120814",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/hzgf7rqvpqvi8ad9thqsultmvxwke8adgetf.jpg?v=1666120815",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qm3c5acisdrhqvtpomddfh03pi5cerkmhj63.jpg?v=1666120813",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 19,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-everything-ends-someday/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/qm3c5acisdrhqvtpomddfh03pi5cerkmhj63.jpg?v=1666120813",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3510797-6765",
+    "release_date": null,
+    "created_at": "2022-10-18 16:20:25"
+  },
+  {
+    "id": 3510769,
+    "name": "Camiseta Skull Sketch",
+    "slug": "camiseta-skull-sketch",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveiras",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/wwqh7sr6i5ino8ijnjvijifd4fapkvap77pi.jpg?v=1666120621",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/elxzhmjzbybe88r70rvxjfwowudhu2cwf3ex.jpg?v=1666120622",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/pflbovebnxmz3gmtogd6ukzi8rvthcfwh7fu.jpg?v=1666120623",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-skull-sketch/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-skull-sketch/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 11218257,
+      "name": "Camiseta Skull Sketch",
+      "slug": "camiseta-skull-sketch",
+      "gtin": null,
+      "product_id": 3510769,
+      "color_id": 6762,
+      "grid_id": "3510769-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/wwqh7sr6i5ino8ijnjvijifd4fapkvap77pi.jpg?v=1666120621",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/elxzhmjzbybe88r70rvxjfwowudhu2cwf3ex.jpg?v=1666120622",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/pflbovebnxmz3gmtogd6ukzi8rvthcfwh7fu.jpg?v=1666120623",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/wwqh7sr6i5ino8ijnjvijifd4fapkvap77pi.jpg?v=1666120621",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-skull-sketch/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/wwqh7sr6i5ino8ijnjvijifd4fapkvap77pi.jpg?v=1666120621",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3510769-6762",
+    "release_date": null,
+    "created_at": "2022-10-18 16:17:13"
+  },
+  {
+    "id": 3309688,
+    "name": "Camiseta Skull Frame",
+    "slug": "camiseta-skull-frame",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/1s2lgj6ip0gynorscg3js5saws44qrhw9ajf.jpg?v=1663605271",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/iamhckdzmznu7utr08teg4xrijul8nz7rqkp.jpg?v=1663605272",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/6t4ubz8mgqszj2gnyppzzxxzlv6max23tdvp.jpg?v=1663605273",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-skull-frame/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-skull-frame/preto",
+    "balance": 18,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 10666362,
+      "name": "Camiseta Skull Frame",
+      "slug": "camiseta-skull-frame",
+      "gtin": null,
+      "product_id": 3309688,
+      "color_id": 6765,
+      "grid_id": "3309688-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/1s2lgj6ip0gynorscg3js5saws44qrhw9ajf.jpg?v=1663605271",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/iamhckdzmznu7utr08teg4xrijul8nz7rqkp.jpg?v=1663605272",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/6t4ubz8mgqszj2gnyppzzxxzlv6max23tdvp.jpg?v=1663605273",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/1s2lgj6ip0gynorscg3js5saws44qrhw9ajf.jpg?v=1663605271",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 18,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-skull-frame/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/1s2lgj6ip0gynorscg3js5saws44qrhw9ajf.jpg?v=1663605271",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3309688-6765",
+    "release_date": null,
+    "created_at": "2022-09-19 13:34:45"
+  },
+  {
+    "id": 3196068,
+    "name": "Camiseta Caveira Mexicana",
+    "slug": "camiseta-caveira-mexicana",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ek2flbh6k9wa1zpxutw4vtk5ykxndndyxil2.jpg?v=1660589570",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/1ek6zy5hl8smhyso3tczlcpmxykga5qofykx.jpg?v=1660589571",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qjqpnq7t3bmaqwtmxp3uzmwogzemv7a2mthb.jpg?v=1660589572",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-caveira-mexicana/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-caveira-mexicana/preto",
+    "balance": 18,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 10339040,
+      "name": "Camiseta Caveira Mexicana",
+      "slug": "camiseta-caveira-mexicana",
+      "gtin": null,
+      "product_id": 3196068,
+      "color_id": 6765,
+      "grid_id": "3196068-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ek2flbh6k9wa1zpxutw4vtk5ykxndndyxil2.jpg?v=1660589570",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/1ek6zy5hl8smhyso3tczlcpmxykga5qofykx.jpg?v=1660589571",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qjqpnq7t3bmaqwtmxp3uzmwogzemv7a2mthb.jpg?v=1660589572",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ek2flbh6k9wa1zpxutw4vtk5ykxndndyxil2.jpg?v=1660589570",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 18,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-caveira-mexicana/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/ek2flbh6k9wa1zpxutw4vtk5ykxndndyxil2.jpg?v=1660589570",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3196068-6765",
+    "release_date": null,
+    "created_at": "2022-08-15 15:53:14"
+  },
+  {
+    "id": 3170945,
+    "name": "Camiseta Reaper",
+    "slug": "camiseta-reaper",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qveconvdnxv8kemxwn3oet3cx10nvaxpsbym.jpg?v=1659550017",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ivumoqzwrnfhfcdvlthx3fwzrvsi12aayp44.jpg?v=1659550018",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8randenvdqqsl1bghuosax9l8vv5pamw8xvo.jpg?v=1659550020",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-reaper/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-reaper/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 10257559,
+      "name": "Camiseta Reaper",
+      "slug": "camiseta-reaper",
+      "gtin": null,
+      "product_id": 3170945,
+      "color_id": 6765,
+      "grid_id": "3170945-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qveconvdnxv8kemxwn3oet3cx10nvaxpsbym.jpg?v=1659550017",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ivumoqzwrnfhfcdvlthx3fwzrvsi12aayp44.jpg?v=1659550018",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8randenvdqqsl1bghuosax9l8vv5pamw8xvo.jpg?v=1659550020",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qveconvdnxv8kemxwn3oet3cx10nvaxpsbym.jpg?v=1659550017",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-reaper/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/qveconvdnxv8kemxwn3oet3cx10nvaxpsbym.jpg?v=1659550017",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3170945-6765",
+    "release_date": null,
+    "created_at": "2022-08-03 15:07:08"
+  },
+  {
+    "id": 3151229,
+    "name": "Camiseta Skull Playing Card",
+    "slug": "camiseta-skull-playing-card",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/frq7v3lzvlw21sd01oszejatokukecmlzc3g.jpg?v=1658854950",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/iulumke8yoh1t1yvqxx7t6z4wiztum7ow1f5.jpg?v=1658854951",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qcn6fpylumwiefne3l8anwkpqe8r55wb6xuh.jpg?v=1658854953",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.188,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6767,
+      "name": "Mescla Cinza",
+      "slug": "mescla-cinza",
+      "image": null,
+      "hexadecimal": "#bcbcbc",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6767,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": "/camiseta-skull-playing-card/mescla-cinza",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-skull-playing-card/mescla-cinza",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 10182379,
+      "name": "Camiseta Skull Playing Card",
+      "slug": "camiseta-skull-playing-card",
+      "gtin": null,
+      "product_id": 3151229,
+      "color_id": 6767,
+      "grid_id": "3151229-6767",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/frq7v3lzvlw21sd01oszejatokukecmlzc3g.jpg?v=1658854950",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/iulumke8yoh1t1yvqxx7t6z4wiztum7ow1f5.jpg?v=1658854951",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qcn6fpylumwiefne3l8anwkpqe8r55wb6xuh.jpg?v=1658854953",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/frq7v3lzvlw21sd01oszejatokukecmlzc3g.jpg?v=1658854950",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-skull-playing-card/mescla-cinza",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/frq7v3lzvlw21sd01oszejatokukecmlzc3g.jpg?v=1658854950",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "3151229-6767",
+    "release_date": null,
+    "created_at": "2022-07-26 14:02:42"
+  },
+  {
+    "id": 2968872,
+    "name": "Camiseta Skull Apache",
+    "slug": "camiseta-skull-apache",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8jxio9lb49hughe6tw1x8te0rxh5kfpmxpfl.jpg?v=1652725801",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/dgvovcxlrdzwhxa70ydjbbirfixyelzkbsdx.jpg?v=1652725803",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/syvyq1rahdgzmgmus0ijg5nkfveju5bcijpy.jpg?v=1652725804",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-skull-apache/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-skull-apache/off-white",
+    "balance": 17,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9646138,
+      "name": "Camiseta Skull Apache",
+      "slug": "camiseta-skull-apache",
+      "gtin": null,
+      "product_id": 2968872,
+      "color_id": 6762,
+      "grid_id": "2968872-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8jxio9lb49hughe6tw1x8te0rxh5kfpmxpfl.jpg?v=1652725801",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/dgvovcxlrdzwhxa70ydjbbirfixyelzkbsdx.jpg?v=1652725803",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/syvyq1rahdgzmgmus0ijg5nkfveju5bcijpy.jpg?v=1652725804",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8jxio9lb49hughe6tw1x8te0rxh5kfpmxpfl.jpg?v=1652725801",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 17,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-skull-apache/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/8jxio9lb49hughe6tw1x8te0rxh5kfpmxpfl.jpg?v=1652725801",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2968872-6762",
+    "release_date": null,
+    "created_at": "2022-05-16 15:30:16"
+  },
+  {
+    "id": 2968859,
+    "name": "Camiseta Pirate Skull",
+    "slug": "camiseta-pirate-skull",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gnzuxdatvpavi6zghsdtpznksgr0ge3f9y1m.jpg?v=1652725571",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yz5s0vpckjbsz66oelel1ky1hm0qgkzyymfc.jpg?v=1652725572",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gibv8i3rya0dvj3d4sesvtyxisn27yie45n3.jpg?v=1652725574",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6767,
+      "name": "Mescla Cinza",
+      "slug": "mescla-cinza",
+      "image": null,
+      "hexadecimal": "#bcbcbc",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6767,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": "/camiseta-pirate-skull/mescla-cinza",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-pirate-skull/mescla-cinza",
+    "balance": 18,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9646069,
+      "name": "Camiseta Pirate Skull",
+      "slug": "camiseta-pirate-skull",
+      "gtin": null,
+      "product_id": 2968859,
+      "color_id": 6767,
+      "grid_id": "2968859-6767",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gnzuxdatvpavi6zghsdtpznksgr0ge3f9y1m.jpg?v=1652725571",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/yz5s0vpckjbsz66oelel1ky1hm0qgkzyymfc.jpg?v=1652725572",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gibv8i3rya0dvj3d4sesvtyxisn27yie45n3.jpg?v=1652725574",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gnzuxdatvpavi6zghsdtpznksgr0ge3f9y1m.jpg?v=1652725571",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 18,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-pirate-skull/mescla-cinza",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/gnzuxdatvpavi6zghsdtpznksgr0ge3f9y1m.jpg?v=1652725571",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2968859-6767",
+    "release_date": null,
+    "created_at": "2022-05-16 15:26:41"
+  },
+  {
+    "id": 2935356,
+    "name": "Camiseta To Be Or Not To Be",
+    "slug": "camiseta-to-be-or-not-to-be",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/i23nutqyvq0arwrpxlqggwkkexam7nni8znc.jpg?v=1651751863",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yjsorrmjoao6vm3a7rantgxk9lfpxvmenwkd.jpg?v=1651751864",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hfezyxftg39di2x5gwjjfeqrba5xwigkasti.jpg?v=1651751865",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-to-be-or-not-to-be/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-to-be-or-not-to-be/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9530457,
+      "name": "Camiseta To Be Or Not To Be",
+      "slug": "camiseta-to-be-or-not-to-be",
+      "gtin": null,
+      "product_id": 2935356,
+      "color_id": 6765,
+      "grid_id": "2935356-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/i23nutqyvq0arwrpxlqggwkkexam7nni8znc.jpg?v=1651751863",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/yjsorrmjoao6vm3a7rantgxk9lfpxvmenwkd.jpg?v=1651751864",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/hfezyxftg39di2x5gwjjfeqrba5xwigkasti.jpg?v=1651751865",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/i23nutqyvq0arwrpxlqggwkkexam7nni8znc.jpg?v=1651751863",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-to-be-or-not-to-be/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/i23nutqyvq0arwrpxlqggwkkexam7nni8znc.jpg?v=1651751863",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2935356-6765",
+    "release_date": null,
+    "created_at": "2022-05-05 08:58:01"
+  },
+  {
+    "id": 2909975,
+    "name": "Camiseta Necromancer",
+    "slug": "camiseta-necromancer",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gih6mkpykco2xexht1bmgbflsr60igkxdm34.jpg?v=1651067016",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/45f7xzvu6udck4jl7grximgeawsh8ibslhp1.jpg?v=1651067017",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/uvu6ndy9mstwwge9zgeumfilqqg2k7uqg5mo.jpg?v=1651067018",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-necromancer/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-necromancer/preto",
+    "balance": 18,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9456077,
+      "name": "Camiseta Necromancer",
+      "slug": "camiseta-necromancer",
+      "gtin": null,
+      "product_id": 2909975,
+      "color_id": 6765,
+      "grid_id": "2909975-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gih6mkpykco2xexht1bmgbflsr60igkxdm34.jpg?v=1651067016",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/45f7xzvu6udck4jl7grximgeawsh8ibslhp1.jpg?v=1651067017",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/uvu6ndy9mstwwge9zgeumfilqqg2k7uqg5mo.jpg?v=1651067018",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gih6mkpykco2xexht1bmgbflsr60igkxdm34.jpg?v=1651067016",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 18,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-necromancer/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/gih6mkpykco2xexht1bmgbflsr60igkxdm34.jpg?v=1651067016",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2909975-6765",
+    "release_date": null,
+    "created_at": "2022-04-27 10:43:52"
+  },
+  {
+    "id": 2909962,
+    "name": "Camiseta Samurai Skull",
+    "slug": "camiseta-samurai-skull",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/jo6kypruvqyftfkhaxeesddonfo4pve8cwaw.jpg?v=1651066916",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gtquqxf7o9nx0obzsp62zsicyl37603zjbwz.jpg?v=1651066918",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/dprnrz9bxlkwr4qjcrbywkepvqmweidgi2kp.jpg?v=1651066919",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6767,
+      "name": "Mescla Cinza",
+      "slug": "mescla-cinza",
+      "image": null,
+      "hexadecimal": "#bcbcbc",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6767,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": "/camiseta-samurai-skull/mescla-cinza",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-samurai-skull/mescla-cinza",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9456043,
+      "name": "Camiseta Samurai Skull",
+      "slug": "camiseta-samurai-skull",
+      "gtin": null,
+      "product_id": 2909962,
+      "color_id": 6767,
+      "grid_id": "2909962-6767",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/jo6kypruvqyftfkhaxeesddonfo4pve8cwaw.jpg?v=1651066916",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gtquqxf7o9nx0obzsp62zsicyl37603zjbwz.jpg?v=1651066918",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/dprnrz9bxlkwr4qjcrbywkepvqmweidgi2kp.jpg?v=1651066919",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/jo6kypruvqyftfkhaxeesddonfo4pve8cwaw.jpg?v=1651066916",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-samurai-skull/mescla-cinza",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/jo6kypruvqyftfkhaxeesddonfo4pve8cwaw.jpg?v=1651066916",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2909962-6767",
+    "release_date": null,
+    "created_at": "2022-04-27 10:42:27"
+  },
+  {
+    "id": 2909952,
+    "name": "Camiseta Skull King",
+    "slug": "camiseta-skull-king",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yha56i3wuemipkgdhzoysdvpvkhlidlvtdjl.jpg?v=1651066824",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/t5jwoyzsrr0d2dgkaf9jbxo7ocknqnrwpvqc.jpg?v=1651066825",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gnesifpb1u3pmpvjygy1yqnjlnq0qpfj6qrr.jpg?v=1651066826",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6764,
+      "name": "Azul Marinho",
+      "slug": "azul-marinho",
+      "image": null,
+      "hexadecimal": "#000958",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6764,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": "/camiseta-skull-king/azul-marinho",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-skull-king/azul-marinho",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9455990,
+      "name": "Camiseta Skull King",
+      "slug": "camiseta-skull-king",
+      "gtin": null,
+      "product_id": 2909952,
+      "color_id": 6764,
+      "grid_id": "2909952-6764",
+      "color_secondary_id": null,
+      "attribute_value_id": 6130,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/yha56i3wuemipkgdhzoysdvpvkhlidlvtdjl.jpg?v=1651066824",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/t5jwoyzsrr0d2dgkaf9jbxo7ocknqnrwpvqc.jpg?v=1651066825",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gnesifpb1u3pmpvjygy1yqnjlnq0qpfj6qrr.jpg?v=1651066826",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yha56i3wuemipkgdhzoysdvpvkhlidlvtdjl.jpg?v=1651066824",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6130,
+        "name": "3G",
+        "slug": "3g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-skull-king/azul-marinho",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/yha56i3wuemipkgdhzoysdvpvkhlidlvtdjl.jpg?v=1651066824",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2909952-6764",
+    "release_date": null,
+    "created_at": "2022-04-27 10:40:39"
+  },
+  {
+    "id": 2909945,
+    "name": "Camiseta Viking Skull",
+    "slug": "camiseta-viking-skull",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qwqgptnoccpe2vmncsnlivpms052xb3bbtjq.jpg?v=1651066727",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/r6y2g6nf4fkkynnxtbkmmmadbgwxhkz3w9o6.jpg?v=1651066729",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/vnw9tlddux3alp71e4pqq9wfvnrvo3bzoggm.jpg?v=1651066730",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6767,
+      "name": "Mescla Cinza",
+      "slug": "mescla-cinza",
+      "image": null,
+      "hexadecimal": "#bcbcbc",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6767,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": "/camiseta-viking-skull/mescla-cinza",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-viking-skull/mescla-cinza",
+    "balance": 19,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9455962,
+      "name": "Camiseta Viking Skull",
+      "slug": "camiseta-viking-skull",
+      "gtin": null,
+      "product_id": 2909945,
+      "color_id": 6767,
+      "grid_id": "2909945-6767",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qwqgptnoccpe2vmncsnlivpms052xb3bbtjq.jpg?v=1651066727",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/r6y2g6nf4fkkynnxtbkmmmadbgwxhkz3w9o6.jpg?v=1651066729",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/vnw9tlddux3alp71e4pqq9wfvnrvo3bzoggm.jpg?v=1651066730",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qwqgptnoccpe2vmncsnlivpms052xb3bbtjq.jpg?v=1651066727",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 19,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6767,
+        "name": "Mescla Cinza",
+        "slug": "mescla-cinza",
+        "image": null,
+        "hexadecimal": "#bcbcbc",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-viking-skull/mescla-cinza",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/qwqgptnoccpe2vmncsnlivpms052xb3bbtjq.jpg?v=1651066727",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2909945-6767",
+    "release_date": null,
+    "created_at": "2022-04-27 10:39:18"
+  },
+  {
+    "id": 2882346,
+    "name": "Camiseta Memento Mori",
+    "slug": "camiseta-memento-mori",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/rg5b0hjquwvjqibh6igygvmgqfpvkb8psxrw.jpg?v=1650387559",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ldyabcm0zzxbs3p8utkpp0dozzvfenmhpnzs.jpg?v=1650387560",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/7iyrplvhwhxkbrelg5hfnjmqeygxz6cz87ye.jpg?v=1650387562",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-memento-mori/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-memento-mori/preto",
+    "balance": 18,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9371964,
+      "name": "Camiseta Memento Mori",
+      "slug": "camiseta-memento-mori",
+      "gtin": null,
+      "product_id": 2882346,
+      "color_id": 6765,
+      "grid_id": "2882346-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/rg5b0hjquwvjqibh6igygvmgqfpvkb8psxrw.jpg?v=1650387559",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ldyabcm0zzxbs3p8utkpp0dozzvfenmhpnzs.jpg?v=1650387560",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/7iyrplvhwhxkbrelg5hfnjmqeygxz6cz87ye.jpg?v=1650387562",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/rg5b0hjquwvjqibh6igygvmgqfpvkb8psxrw.jpg?v=1650387559",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 18,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-memento-mori/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/rg5b0hjquwvjqibh6igygvmgqfpvkb8psxrw.jpg?v=1650387559",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2882346-6765",
+    "release_date": null,
+    "created_at": "2022-04-19 13:59:36"
+  },
+  {
+    "id": 2882294,
+    "name": "Camiseta Rotting Bones",
+    "slug": "camiseta-rotting-bones",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8cxjhv8sjlsqiyoeaeysmnvs7fgqzximipwo.jpg?v=1650387216",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/uudxlt64md38qdgu8hlcl71uy8ecvnkp58y1.jpg?v=1650387218",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/fpghurq58cbrq21wrvnhbgg2wlkvk0fpyvqx.jpg?v=1650387219",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-rotting-bones/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-rotting-bones/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9371848,
+      "name": "Camiseta Rotting Bones",
+      "slug": "camiseta-rotting-bones",
+      "gtin": null,
+      "product_id": 2882294,
+      "color_id": 6765,
+      "grid_id": "2882294-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8cxjhv8sjlsqiyoeaeysmnvs7fgqzximipwo.jpg?v=1650387216",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/uudxlt64md38qdgu8hlcl71uy8ecvnkp58y1.jpg?v=1650387218",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/fpghurq58cbrq21wrvnhbgg2wlkvk0fpyvqx.jpg?v=1650387219",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8cxjhv8sjlsqiyoeaeysmnvs7fgqzximipwo.jpg?v=1650387216",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-rotting-bones/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/8cxjhv8sjlsqiyoeaeysmnvs7fgqzximipwo.jpg?v=1650387216",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2882294-6765",
+    "release_date": null,
+    "created_at": "2022-04-19 13:53:50"
+  },
+  {
+    "id": 2882273,
+    "name": "Camiseta Skull Nature",
+    "slug": "camiseta-skull-nature",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hyixhsy01vbpn8lkzhqr9rpqd5p6zzjzdheh.jpg?v=1650387140",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8dzfcjvcqhpqyoovk5av6s661bhy9jhlqacj.jpg?v=1650387142",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/fiwecsxqnfoi6ohwfde3lfe4hpivfodrwyae.jpg?v=1650387143",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-skull-nature/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-skull-nature/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9371820,
+      "name": "Camiseta Skull Nature",
+      "slug": "camiseta-skull-nature",
+      "gtin": null,
+      "product_id": 2882273,
+      "color_id": 6765,
+      "grid_id": "2882273-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6130,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/hyixhsy01vbpn8lkzhqr9rpqd5p6zzjzdheh.jpg?v=1650387140",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8dzfcjvcqhpqyoovk5av6s661bhy9jhlqacj.jpg?v=1650387142",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/fiwecsxqnfoi6ohwfde3lfe4hpivfodrwyae.jpg?v=1650387143",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hyixhsy01vbpn8lkzhqr9rpqd5p6zzjzdheh.jpg?v=1650387140",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6130,
+        "name": "3G",
+        "slug": "3g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-skull-nature/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/hyixhsy01vbpn8lkzhqr9rpqd5p6zzjzdheh.jpg?v=1650387140",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2882273-6765",
+    "release_date": null,
+    "created_at": "2022-04-19 13:52:41"
+  },
+  {
+    "id": 2882265,
+    "name": "Camiseta In Morte Ultima Veritas",
+    "slug": "camiseta-in-morte-ultima-veritas",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": null,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+    "relevance": 1,
+    "tags": "skull,skulls,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/tesry96u5l6gk42g36mylhuiyi07xid7ksae.jpg?v=1650387074",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/6pfuzf3h914bigfswxkyqhkb9zb2ctwqlx44.jpg?v=1650387076",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/bggmhtkgyscdwcr8tisff4kiututsx0wxa0w.jpg?v=1650387077",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-in-morte-ultima-veritas/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-in-morte-ultima-veritas/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 9371782,
+      "name": "Camiseta In Morte Ultima Veritas",
+      "slug": "camiseta-in-morte-ultima-veritas",
+      "gtin": null,
+      "product_id": 2882265,
+      "color_id": 6762,
+      "grid_id": "2882265-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6130,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/tesry96u5l6gk42g36mylhuiyi07xid7ksae.jpg?v=1650387074",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/6pfuzf3h914bigfswxkyqhkb9zb2ctwqlx44.jpg?v=1650387076",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/bggmhtkgyscdwcr8tisff4kiututsx0wxa0w.jpg?v=1650387077",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/tesry96u5l6gk42g36mylhuiyi07xid7ksae.jpg?v=1650387074",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6130,
+        "name": "3G",
+        "slug": "3g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-in-morte-ultima-veritas/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/tesry96u5l6gk42g36mylhuiyi07xid7ksae.jpg?v=1650387074",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "2882265-6762",
+    "release_date": null,
+    "created_at": "2022-04-19 13:51:31"
+  }
+]
