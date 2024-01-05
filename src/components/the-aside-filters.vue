@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Plus, Minus, XCircle } from 'lucide-vue-next';
 import { computed, reactive, watch } from 'vue';
+import { useCategoriesStore } from '@/stores/useCategoriesStore';
 
 interface FilterSection {
   color: boolean;
@@ -9,9 +10,9 @@ interface FilterSection {
   [key: string]: boolean;
 }
 
-interface SelectedCategories {
-  [key: string]: boolean;
-}
+// interface SelectedCategories {
+//   [key: string]: boolean;
+// }
 
 interface SelectedSizes {
   [key: string]: boolean;
@@ -22,11 +23,11 @@ interface SelectColors {
 }
 
 const filterInputCategories = [
-  "anime-manga",
+  "anime",
   "games",
   "informatica",
   "pets",
-  "rock-musicas",
+  "musica",
   "tecnologia"
 ]
 
@@ -59,19 +60,20 @@ const filterInputColors = [
 
 const filterInputsizes = ['2P', 'P', 'M', 'G', '2G', '3G', '4G',]
 
+const store = useCategoriesStore()
+
 const filterSection: FilterSection = reactive({
   color: true,
   size: true,
   category: true,
 })
-
-const selectedCategories: SelectedCategories = reactive({})
+// const selectedCategories: SelectedCategories = reactive({})
 const selectedColors: SelectColors = reactive({})
 const selectedSizes: SelectedSizes = reactive({})
 
-const toggleCategory = (category: string) => {
-  selectedCategories[category] = !selectedCategories[category]
-}
+// const toggleCategory = (category: string) => {
+//   selectedCategories[category] = !selectedCategories[category]
+// }
 
 const toggleColor = (color: string) => {
   selectedColors[color] = !selectedColors[color]
@@ -81,9 +83,9 @@ const toggledSize = (size: string) => {
   selectedSizes[size] = !selectedSizes[size]
 }
 
-const selectedCategoriesArray = computed(() => {
-  return Object.keys(selectedCategories).filter(category => selectedCategories[category])
-})
+// const selectedCategoriesArray = computed(() => {
+//   return Object.keys(selectedCategories).filter(category => selectedCategories[category])
+// })
 
 const selectedColorsArray = computed(() => {
   return Object.keys(selectedColors).filter(color => selectedColors[color])
@@ -93,15 +95,15 @@ const selectedSizesArray = computed(() => {
   return Object.keys(selectedSizes).filter(size => selectedSizes[size])
 })
 
-watch(selectedCategories, (value) => {
-  console.log(selectedCategoriesArray.value)
-})
+// watch(selectedCategories, () => {
+//   store.setCategories(selectedCategoriesArray.value)
+// })
 
-watch(selectedColors, (value) => {
+watch(selectedColors, () => {
   console.log(selectedColorsArray.value)
 })
 
-watch(selectedSizes, (value) => {
+watch(selectedSizes, () => {
   console.log(selectedSizesArray.value)
 })
 
@@ -129,7 +131,7 @@ defineEmits(['close'])
 
         <fieldset :class="isAccordion('category').value" class="ml-6 flex flex-col items-start justify-center">
           <ul class="flex w-full flex-col items-start justify-center">
-            <li @click="toggleCategory(category)" v-for="category in filterInputCategories" :key="category"
+            <li @click="store.setCategory(category); $emit('close')" v-for="category in filterInputCategories" :key="category"
               class="cursor-pointer capitalize transition-all hover:opacity-80">
               {{ category }}
             </li>
@@ -202,4 +204,4 @@ defineEmits(['close'])
   color: white;
   background-color: #1e1f20;
 }
-</style>
+</style>@/stores/useCategoriesStore@/stores/useCategoriesStore
