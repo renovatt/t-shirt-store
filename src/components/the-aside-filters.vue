@@ -112,7 +112,8 @@ defineEmits(['close'])
 
 <template>
   <section class="fixed inset-0 z-10 h-screen w-screen bg-700/50">
-    <aside class="fixed left-0 top-0 h-screen w-[31.5rem] overflow-y-auto bg-800 shadow-2xl shadow-700">
+    <aside
+      class="fixed left-0 top-0 h-screen w-[31.5rem] animate-open overflow-y-auto bg-800 shadow-2xl shadow-700 scrollbar-hide">
       <section class="sticky top-0 flex w-full items-center justify-between bg-700 p-4">
         <h1 class="text-base text-800">Filtros</h1>
         <XCircle @click="$emit('close')" class="h-10 w-10 cursor-pointer bg-700 p-2 text-base uppercase text-800" />
