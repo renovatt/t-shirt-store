@@ -2,6 +2,7 @@
 import ClothCard from '@/components/the-cloth-card.vue';
 import Banner from '@/components/the-banner.vue';
 import Filters from '@/components/the-filters.vue';
+import CollectionBanner from '@/components/the-collection-banner.vue';
 import { onMounted, ref } from 'vue';
 import db from '../database/products.json'
 import type { RootProducts } from '@/@types';
@@ -17,6 +18,7 @@ onMounted(() => {
 <template>
   <section>
     <Banner />
+    <CollectionBanner />
     <Filters />
     <article class="flex flex-wrap items-center justify-between gap-2 bg-800 py-2">
       <ClothCard v-for="product in products" :key="product.id">
