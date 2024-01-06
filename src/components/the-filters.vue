@@ -6,7 +6,7 @@ const isActiveAsideFilter = ref(false)
 </script>
 
 <template>
-  <div class="my-2 flex items-center justify-start gap-2">
+  <div class="my-2 flex flex-wrap items-center justify-center gap-2 md:justify-start">
     <AsideFilter v-show="isActiveAsideFilter" @close="isActiveAsideFilter = !isActiveAsideFilter" />
     <button @click="isActiveAsideFilter = !isActiveAsideFilter" class="bg-700 p-2 px-4 text-base uppercase text-800">
       Filtrar

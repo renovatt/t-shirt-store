@@ -5,7 +5,7 @@ const store = useCategoriesStore()
 </script>
 
 <template>
-  <section class="flex items-center justify-center border-b border-700/40 p-6">
-    <h1 class="text-2xl uppercase text-700/100">{{ store.category }}</h1>
+  <section class="flex items-center justify-center border-b border-700/40 p-4 md:p-6">
+    <h1 class="text-xl uppercase text-700/100 md:text-2xl">{{ store.category }}</h1>
   </section>
 </template>

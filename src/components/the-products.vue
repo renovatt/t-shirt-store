@@ -29,7 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <article class="flex flex-wrap items-center justify-between gap-2 bg-800 py-2">
+  <article class="flex flex-wrap items-center justify-around gap-2 bg-800 py-2">
     <TheClothCard v-for="product in filteredProducts" :key="product.id">
       <template #image>
         <img :src="product.images[0].src" :alt="product.name" class="max-w-full" />
