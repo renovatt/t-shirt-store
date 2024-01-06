@@ -4,6 +4,7 @@ import TheClothCard from './the-cloth-card.vue';
 import type { RootProducts } from '@/@types';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
 import { useColorsStore } from '@/stores/useColorsStore';
+import { usePagination } from '@/stores/usePagination';
 import { useSizesStore } from '@/stores/useSizesStore';
 import { ref, computed, onMounted } from 'vue';
 
@@ -12,15 +13,22 @@ const products = ref<RootProducts[]>([])
 const storeCategories = useCategoriesStore()
 const storeColors = useColorsStore()
 const storeSizes = useSizesStore()
+const storePagination = usePagination()
 
 const filteredProducts = computed(() => {
-  return products.value.filter(product => {
+  const filtered = products.value.filter(product => {
     let matchesCategory = storeCategories.category !== "Novidades" ? product.tags.includes(storeCategories.category.trim()) : true;
     let matchesColor = storeColors.colors.length > 0 ? storeColors.colors.includes(product.color.slug) : true;
     let matchesSize = storeSizes.sizes.length > 0 ? storeSizes.sizes.includes(product.variation.attribute.slug) : true;
 
     return matchesCategory && matchesColor && matchesSize;
   });
+
+  storePagination.setProducts(filtered);
+
+  return filtered.slice(
+    storePagination.page * storePagination.itemsToShow,
+    (storePagination.page + 1) * storePagination.itemsToShow);
 });
 
 onMounted(() => {
