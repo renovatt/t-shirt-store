@@ -11,5 +11,6 @@ watch(search, (newValue) => {
 </script>
 
 <template>
-  <input v-model="search" type="search" placeholder="Olá, o que você procura?" class="w-[40rem] p-2 px-4 outline-none">
+  <input v-model="search" type="search" placeholder="Olá, o que você procura?"
+    class="hidden w-80 p-2 px-4 outline-none md:flex lg:w-[40rem]">
 </template>

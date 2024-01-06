@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ShoppingBag } from 'lucide-vue-next';
-import { CircleUserRound } from 'lucide-vue-next';
+import { ShoppingBag, CircleUserRound, Search } from 'lucide-vue-next';
 </script>
 
 <template>
   <section class="relative flex gap-5 px-6">
+    <Search class="flex h-8 w-8 md:hidden" />
     <CircleUserRound class="h-8 w-8" />
     <ShoppingBag class="h-8 w-8" />
     <span
