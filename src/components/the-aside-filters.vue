@@ -57,6 +57,11 @@ const filterInputCategories = [
 
 const filterInputColors = [
   {
+    hexadecimal: '#d30000',
+    name: 'Vermelho',
+    slug: 'vermelho'
+  },
+  {
     hexadecimal: '#e1e0da',
     name: 'Mescla Banana',
     slug: 'mescla-banana'

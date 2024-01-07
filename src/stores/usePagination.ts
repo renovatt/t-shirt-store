@@ -4,19 +4,13 @@ import { computed, ref, watch } from "vue";
 
 const DEFAULT_ITEMS = 24;
 const DEFAULT_PAGE_SIZE = 0;
+const DEFAULT_RELEVANT_FILTER = 'mais relevantes';
 
 export const usePagination = defineStore("usePagination", () => {
   const itemsToShow = ref<number>(DEFAULT_ITEMS)
   const page = ref<number>(DEFAULT_PAGE_SIZE);
   const products = ref<RootProducts[]>([])
-
-  function setPage(newPage: number) {
-    page.value = newPage;
-  }
-
-  function setProducts(newProducts: RootProducts[]) {
-    products.value = newProducts;
-  }
+  const relevantFilters = ref<string>(DEFAULT_RELEVANT_FILTER)
 
   const totalProducts = computed(() => products.value.length);
   const totalPages = computed(() => Math.ceil(totalProducts.value / itemsToShow.value));
@@ -28,6 +22,18 @@ export const usePagination = defineStore("usePagination", () => {
     }
     return pages;
   })
+
+  function setPage(newPage: number) {
+    page.value = newPage;
+  }
+
+  function setRelevantFilters(filter: string) {
+    relevantFilters.value = filter;
+  }
+
+  function setProducts(newProducts: RootProducts[]) {
+    products.value = newProducts;
+  }
 
   function setItemsToShow(newItems: number) {
     itemsToShow.value = newItems;
@@ -59,10 +65,12 @@ export const usePagination = defineStore("usePagination", () => {
     page,
     pages,
     totalPages,
+    relevantFilters,
     setItemsToShow,
     nextPage,
     previousPage,
     setProducts,
     setPage,
+    setRelevantFilters
   }
 });

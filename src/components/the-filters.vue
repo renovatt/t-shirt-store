@@ -5,7 +5,8 @@ import { usePagination } from '@/stores/usePagination';
 import { ChevronLeft, ChevronRight } from 'lucide-vue-next';
 
 const isActiveAsideFilter = ref(false)
-const selected = ref('24')
+const relevantFilters = ref('mais relevantes')
+const quantityItems = ref('24')
 const pages = ref('1')
 
 const store = usePagination()
@@ -14,8 +15,12 @@ watch(() => store.page, (newPage) => {
   pages.value = String(newPage)
 })
 
-watch(selected, (newSelected) => {
+watch(quantityItems, (newSelected) => {
   store.setItemsToShow(Number(newSelected))
+})
+
+watch(relevantFilters, (newSelected) => {
+  store.setRelevantFilters(newSelected)
 })
 
 onMounted(() => {
@@ -31,15 +36,15 @@ onMounted(() => {
         Filtrar
       </button>
 
-      <select class="border border-900 p-2 px-4 text-700/80 outline-none">
-        <option value="">Mais relevantes</option>
-        <option value="">Menor preço</option>
-        <option value="">Maior preço</option>
-        <option value="">Alfabetica de A>Z</option>
-        <option value="">Alfabetica de Z>A</option>
+      <select v-model="relevantFilters" class="border border-900 p-2 px-4 text-700/80 outline-none">
+        <option value="mais relevantes" selected>Mais relevantes</option>
+        <!-- <option value="menor preço">Menor preço</option> -->
+        <!-- <option value="maior preço">Maior preço</option> -->
+        <option value="a>z">Alfabética de A>Z</option>
+        <option value="z>a">Alfabética de Z>A</option>
       </select>
 
-      <select v-model="selected" class="border border-900 p-2 px-4 text-700/80 outline-none">
+      <select v-model="quantityItems" class="border border-900 p-2 px-4 text-700/80 outline-none">
         <option value="24" selected>24</option>
         <option value="34">34</option>
         <option value="48">48</option>
