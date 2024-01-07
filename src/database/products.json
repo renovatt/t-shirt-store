@@ -22674,6 +22674,282 @@
       "created_at": "2022-10-18 16:16:07"
     },
     {
+      "id": 817445,
+      "name": "Camiseta Warrior",
+      "slug": "camiseta-rpg-warrior",
+      "payments": {
+        "paypal": {
+          "name": "Paypal",
+          "method": "paypal",
+          "discount": 0,
+          "parcels": 1,
+          "total": 79.9,
+          "parcel_price": 79.9,
+          "has_interest": false,
+          "max_installment": {
+            "markup": "1",
+            "parcel": 1,
+            "discount": 0,
+            "interest": 0,
+            "total": 79.9,
+            "parcel_price": 79.9
+          }
+        },
+        "creditcard": {
+          "name": "Cartão de crédito",
+          "method": "creditcard",
+          "discount": 0,
+          "parcels": 1,
+          "total": 79.9,
+          "parcel_price": 79.9,
+          "has_interest": false,
+          "max_installment": {
+            "markup": "1",
+            "parcel": 2,
+            "discount": 0,
+            "interest": 0,
+            "total": 79.9,
+            "parcel_price": 39.95
+          }
+        },
+        "app": {
+          "name": "Aplicativo PicPay",
+          "method": "app",
+          "discount": 0,
+          "parcels": 1,
+          "total": 79.9,
+          "parcel_price": 79.9,
+          "has_interest": false,
+          "max_installment": {
+            "markup": "1",
+            "parcel": 1,
+            "discount": 0,
+            "interest": 0,
+            "total": 79.9,
+            "parcel_price": 79.9
+          }
+        },
+        "billet": {
+          "name": "Boleto bancário",
+          "method": "billet",
+          "discount": 0,
+          "parcels": 1,
+          "total": 77.5,
+          "parcel_price": 77.5,
+          "has_interest": false,
+          "max_installment": {
+            "markup": "0.97",
+            "parcel": 1,
+            "discount": 0,
+            "interest": 0,
+            "total": 77.5,
+            "parcel_price": 77.5
+          }
+        },
+        "pix": {
+          "name": "Pix",
+          "method": "pix",
+          "discount": 0,
+          "parcels": 1,
+          "total": 77.5,
+          "parcel_price": 77.5,
+          "has_interest": false,
+          "max_installment": {
+            "markup": "0.97",
+            "parcel": 1,
+            "discount": 0,
+            "interest": 0,
+            "total": 77.5,
+            "parcel_price": 77.5
+          }
+        }
+      },
+      "gtin": null,
+      "mpn": null,
+      "additional_shipping_time": null,
+      "external_id": "688857172",
+      "category_default_id": 40828,
+      "hotsite_id": null,
+      "description": null,
+      "short_description": "<p><strong><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></strong></p>",
+      "relevance": 1,
+      "tags": "rpg,guerreiro,role playing game,games",
+      "min_quantity": null,
+      "max_quantity": null,
+      "sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "kit": null,
+      "kit_markup": 1,
+      "is_virtual": null,
+      "is_pre_sale": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-warrior-aberta.jpg?v=1598377310",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-warrior-estampa.jpg?v=1598377310",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/tabela-de-medidas-camiseta-unissex-49.jpg?v=1598377311",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "video": null,
+      "weight": 0.187,
+      "depth": 1,
+      "width": 1,
+      "height": 1,
+      "is_gift": null,
+      "selling_out_of_stock": null,
+      "additional_time_out_of_stock": null,
+      "price": 79.9,
+      "price_compare": 0,
+      "discount": 0,
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "billet_discount": null,
+      "payments_reason": null,
+      "brand": {
+        "id": 3835,
+        "url": "/studio-geek",
+        "name": "Studio Geek",
+        "slug": "studio-geek",
+        "position": null,
+        "description": null,
+        "hotsite_id": null,
+        "active": null,
+        "short_description": null,
+        "image": null,
+        "banner": null,
+        "meta_title": null,
+        "meta_description": null,
+        "meta_keywords": null,
+        "created_at": null
+      },
+      "category": null,
+      "categories": [],
+      "color": {
+        "id": 6766,
+        "name": "Vermelho",
+        "slug": "vermelho",
+        "image": null,
+        "hexadecimal": "#d30000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "color_id": 6766,
+      "attribute": [],
+      "attribute_secondary": [],
+      "features": [],
+      "components": [],
+      "component_groups": [],
+      "colors": null,
+      "url": "/camiseta-rpg-warrior/vermelho",
+      "balance": 9,
+      "variations": [],
+      "all_variations_in_release_date": false,
+      "variation": {
+        "id": 2531461,
+        "name": "Camiseta Warrior",
+        "slug": "camiseta-rpg-warrior",
+        "gtin": null,
+        "product_id": 817445,
+        "color_id": 6766,
+        "grid_id": "817445-6766",
+        "color_secondary_id": null,
+        "attribute_value_id": 6125,
+        "attribute_value_secondary_id": null,
+        "mpn": null,
+        "additional_shipping_time": null,
+        "external_id": "688857172",
+        "min_quantity": null,
+        "max_quantity": null,
+        "reference": null,
+        "is_sell_in_kit_only": null,
+        "meta_title": null,
+        "meta_description": null,
+        "meta_keywords": null,
+        "images": [
+          {
+            "id": null,
+            "src": "https://cdn.dooca.store/292/products/camiseta-warrior-aberta.jpg?v=1598377310",
+            "alt": null,
+            "position": null
+          },
+          {
+            "id": null,
+            "src": "https://cdn.dooca.store/292/products/camiseta-warrior-estampa.jpg?v=1598377310",
+            "alt": null,
+            "position": null
+          },
+          {
+            "id": null,
+            "src": "https://cdn.dooca.store/292/products/tabela-de-medidas-camiseta-unissex-49.jpg?v=1598377311",
+            "alt": null,
+            "position": null
+          }
+        ],
+        "image": {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-warrior-aberta.jpg?v=1598377310",
+          "alt": null,
+          "position": null
+        },
+        "video": null,
+        "additional_time_out_of_stock": null,
+        "balance": 9,
+        "price": "79.90",
+        "has_price_range": null,
+        "min_price_range": 79.9,
+        "max_price_range": 79.9,
+        "price_compare": 79.9,
+        "color": {
+          "id": 6766,
+          "name": "Vermelho",
+          "slug": "vermelho",
+          "image": null,
+          "hexadecimal": "#d30000",
+          "position": null,
+          "url": null,
+          "product_images": null
+        },
+        "attribute": {
+          "id": 6125,
+          "name": "2P",
+          "slug": "2p",
+          "attribute_id": null,
+          "attribute_name": null,
+          "position": null,
+          "active": null
+        },
+        "attribute_secondary": null,
+        "url": "/camiseta-rpg-warrior/vermelho",
+        "selling_out_of_stock": false,
+        "release_date": null
+      },
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-warrior-aberta.jpg?v=1598377310",
+        "alt": null,
+        "position": null
+      },
+      "grid_id": "817445-6766",
+      "release_date": null,
+      "created_at": "2020-08-25 13:48:01"
+    },
+    {
       "id": 1077491,
       "name": "Camiseta Software Developer",
       "slug": "camiseta-software-developer",
