@@ -184,7 +184,7 @@ defineEmits(['close'])
 
         <fieldset :class="isAccordion('category').value" class="ml-6 flex flex-col items-start justify-center">
           <ul class="flex w-full flex-col items-start justify-center">
-            <li @click="storeCategories.setCategory(category.slug); $emit('close')"
+            <li @click="storeCategories.setCategory(category); $emit('close')"
               v-for="category in filterInputCategories" :key="category.slug"
               class="cursor-pointer text-700 opacity-80 transition-all hover:opacity-100">
               {{ category.name }}

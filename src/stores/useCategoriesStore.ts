@@ -1,13 +1,21 @@
 import { defineStore } from "pinia";
 import { ref } from "vue";
 
-const DEFAULT_CATEGORY = 'Novidades';
+const DEFAULT_CATEGORY = {
+  name: 'Novidades',
+  slug: 'novidades'
+}
+
+type Category = {
+  name: string;
+  slug: string;
+}
 
 export const useCategoriesStore = defineStore("useCategoryStore", () => {
-  const category = ref<string>(DEFAULT_CATEGORY);
+  const category = ref<Category>(DEFAULT_CATEGORY);
   const categories = ref<string[]>([]);
 
-  function setCategory(newCategory: string) {
+  function setCategory(newCategory: { name: string; slug: string}) {
     category.value = newCategory;
   }
 

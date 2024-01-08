@@ -18,7 +18,7 @@ const storePagination = usePagination()
 
 const filteredProducts = computed(() => {
   let filtered = products.value.filter(product => {
-    let matchesCategory = storeCategories.category !== "Novidades" ? product.tags.includes(storeCategories.category.trim()) : true;
+    let matchesCategory = storeCategories.category.slug !== "novidades" ? product.tags.includes(storeCategories.category.slug.trim()) : true;
     let matchesColor = storeColors.colors.length > 0 ? storeColors.colors.includes(product.color.slug) : true;
     let matchesSize = storeSizes.sizes.length > 0 ? storeSizes.sizes.includes(product.variation.attribute.slug) : true;
 

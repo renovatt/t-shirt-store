@@ -43,7 +43,7 @@ defineEmits(['close'])
 
       <nav class="flex w-full items-center justify-center">
         <ul class="flex w-full flex-col items-start justify-between gap-4 p-4">
-          <li @click="store.setCategory(category.slug); $emit('close')" v-for="category in TendenciesCategories"
+          <li @click="store.setCategory(category); $emit('close')" v-for="category in TendenciesCategories"
             :key="category.slug" class="cursor-pointer rounded-md text-center uppercase hover:opacity-80">
             {{ category.name }}
           </li>
