@@ -8,8 +8,12 @@ import { useColorsStore } from '@/stores/useColorsStore';
 import { usePagination } from '@/stores/usePagination';
 import { useSizesStore } from '@/stores/useSizesStore';
 import { ref, computed, onMounted } from 'vue';
+import ClothModal from './the-cloth-modal.vue';
+import { ShoppingCart, Eye } from 'lucide-vue-next';
 
+const selectedProduct = ref<RootProducts>({} as RootProducts)
 const products = ref<RootProducts[]>([])
+const view = ref(true)
 
 const storeCategories = useCategoriesStore()
 const storeColors = useColorsStore()
@@ -41,11 +45,17 @@ const filteredProducts = computed(() => {
 onMounted(() => {
   products.value = db.products as RootProducts[];
 })
+
+const getProduct = (id: number) => {
+  view.value = !view.value
+  selectedProduct.value = products.value.find(product => product.id === id) as RootProducts;
+}
 </script>
 
 <template>
   <article class="flex flex-wrap items-center justify-around gap-2 bg-800 py-2">
     <NotFound v-show="!filteredProducts.length" />
+    <ClothModal v-show="view" @close="view = !view" :product="selectedProduct" />
     <ClothCard v-for="product in filteredProducts" :key="product.id">
       <template #image>
         <img :src="product.images[0].src" :alt="product.name" class="max-w-full" />
@@ -67,6 +77,12 @@ onMounted(() => {
           currency: 'BRL',
           style: 'currency'
         }) }}
+      </template>
+      <template #cart>
+        <ShoppingCart class="text-800" />
+      </template>
+      <template #view>
+        <Eye class="text-800" @click="getProduct(product.id)" />
       </template>
     </ClothCard>
   </article>

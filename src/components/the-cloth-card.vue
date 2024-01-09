@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import { Eye, ShoppingCart } from 'lucide-vue-next';
-
-</script>
-
 <template>
   <div
     class="group relative flex w-40 flex-col items-center justify-around gap-2 border-2 border-transparent p-2 transition-all ease-in-out hover:border-700/10 md:h-[29.706rem] md:w-[22.331rem]">
@@ -14,11 +9,11 @@ import { Eye, ShoppingCart } from 'lucide-vue-next';
       class="absolute bottom-24 flex w-full items-center justify-center gap-6 opacity-0 transition-all delay-150 duration-300 ease-in-out group-hover:-translate-y-2 group-hover:opacity-100 md:bottom-40">
 
       <span class="cursor-pointer rounded-full bg-700/90 p-2 transition-all hover:bg-700">
-        <ShoppingCart class="text-800" />
+        <slot name="cart" />
       </span>
 
       <span class="cursor-pointer rounded-full bg-700/90 p-2 transition-all hover:bg-700">
-        <Eye class="text-800" />
+        <slot name="view" />
       </span>
     </div>
 
