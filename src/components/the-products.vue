@@ -13,7 +13,7 @@ import { ShoppingCart, Eye } from 'lucide-vue-next';
 
 const selectedProduct = ref<RootProducts>({} as RootProducts)
 const products = ref<RootProducts[]>([])
-const view = ref(true)
+const view = ref(false)
 
 const storeCategories = useCategoriesStore()
 const storeColors = useColorsStore()
@@ -47,8 +47,11 @@ onMounted(() => {
 })
 
 const getProduct = (id: number) => {
-  view.value = !view.value
-  selectedProduct.value = products.value.find(product => product.id === id) as RootProducts;
+  const product = products.value.find(product => product.id === id);
+  if (product) {
+    selectedProduct.value = product;
+    view.value = !view.value;
+  }
 }
 </script>
 

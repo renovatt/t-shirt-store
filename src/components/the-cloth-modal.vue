@@ -1,10 +1,7 @@
 <script setup lang="ts">
 import type { RootProducts } from '@/@types';
 import { Plus, Minus } from 'lucide-vue-next';
-
-type Props = {
-  product: RootProducts
-}
+import { computed, toRefs } from 'vue';
 
 const filterInputsizes = [
   {
@@ -36,45 +33,50 @@ const filterInputsizes = [
     slug: '4g',
   },
 ]
-// <img :src="product.images[0].src" :alt="product.name" class="max-w-full" />
-// <img :src="'https://cdn.dooca.store/292/products/sg18-camiseta-berserk-aberta.jpg?v=1585144656'"
-//                 :alt="product.name" class="block md:max-w-full" />
 
 defineEmits(['close'])
-const { product } = defineProps<Props>()
-console.log(product.name)
+
+const props = defineProps<{ product: RootProducts }>()
+const { product } = toRefs(props);
+
+const productImageSrcOne = computed(() => product.value?.images?.[0]?.src);
+const productImageSrcSecond = computed(() => product.value?.images?.[1]?.src);
+const productImageSrcThird = computed(() => product.value?.images?.[2]?.src);
+
+const getId = (id: number) => {
+  console.log(id)
+}
+
 </script>
 
 <template>
   <div class="fixed inset-0 z-50 flex h-screen w-screen items-center justify-center bg-700/20 p-5">
-    <div class="relative flex h-[95%] w-[95%] max-w-7xl items-center justify-center bg-800 p-2">
+    <div class="relative flex h-[95%] w-[95%] max-w-7xl animate-zoom items-center justify-center bg-800 p-2">
 
       <button @click="$emit('close')" class="absolute right-1 top-1 z-10 h-10 w-10 bg-700 text-800">X</button>
 
       <article
-        class="relative flex h-full w-full flex-col items-center justify-start gap-6 overflow-y-auto p-2 md:flex-row md:justify-center">
+        class="relative flex h-full w-full  flex-col items-center justify-start gap-6 overflow-y-auto p-2 md:flex-row md:justify-center">
 
         <section
           class="relative flex w-full flex-col items-center justify-center gap-6 md:h-full md:w-1/2 md:flex-row-reverse">
           <figure class="flex h-full w-full items-center justify-center p-0 md:p-2">
-            <img :src="'https://cdn.dooca.store/292/products/sg18-camiseta-berserk-aberta.jpg?v=1585144656'"
-              :alt="product.name" class="block md:max-w-full" />
+            <img v-if="productImageSrcOne" :src="productImageSrcOne" :alt="product.name" class="block md:max-w-full" />
           </figure>
 
           <div class="flex w-full items-center justify-around gap-2 md:w-auto md:flex-col md:justify-center md:gap-10">
             <figure class="flex h-20 w-20 items-center justify-center border  border-700/20 p-1">
-              <img :src="'https://cdn.dooca.store/292/products/sg18-camiseta-berserk-aberta.jpg?v=1585144656'"
-                :alt="product.name" class="block md:max-w-full" />
+              <img v-if="productImageSrcOne" :src="productImageSrcOne" :alt="product.name" class="block md:max-w-full" />
             </figure>
 
             <figure class="flex h-20 w-20 items-center justify-center border  border-700/20 p-1">
-              <img :src="'https://cdn.dooca.store/292/products/sg18-camiseta-berserk-aberta.jpg?v=1585144656'"
-                :alt="product.name" class="block md:max-w-full" />
+              <img v-if="productImageSrcSecond" :src="productImageSrcSecond" :alt="product.name"
+                class="block md:max-w-full" />
             </figure>
 
             <figure class="flex h-20 w-20 items-center justify-center border  border-700/20 p-1">
-              <img :src="'https://cdn.dooca.store/292/products/sg18-camiseta-berserk-aberta.jpg?v=1585144656'"
-                :alt="product.name" class="block md:max-w-full" />
+              <img v-if="productImageSrcThird" :src="productImageSrcThird" :alt="product.name"
+                class="block md:max-w-full" />
             </figure>
           </div>
         </section>
@@ -106,7 +108,8 @@ console.log(product.name)
 
             <div class="flex flex-col gap-1">
               <h3 class="text-base text-700/70">Cor</h3>
-              <span class="bg-700 p-2 px-4 text-center text-base uppercase text-800">preto</span>
+              <span v-if="product.color" class="bg-700 p-2 px-4 text-center text-base uppercase text-800">{{
+                product.color.name }}</span>
             </div>
 
             <div class="flex flex-col items-start justify-center">
@@ -120,7 +123,7 @@ console.log(product.name)
                 <span>6</span>
                 <Plus class="h-3 w-3 cursor-pointer" />
               </div>
-              <button class="w-full bg-700 p-4 text-base uppercase text-800">Adicionar</button>
+              <button class="w-full bg-700 p-4 text-base uppercase text-800" @click="getId(product.id)">Adicionar</button>
             </div>
 
           </article>
