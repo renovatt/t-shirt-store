@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { RootProducts } from '@/@types';
 import { Plus, Minus } from 'lucide-vue-next';
-import { computed, toRefs } from 'vue';
+import { computed, ref, toRefs, watch } from 'vue';
 
 const filterInputsizes = [
   {
@@ -36,12 +36,24 @@ const filterInputsizes = [
 
 defineEmits(['close'])
 
+const selectedImage = ref('');
+
 const props = defineProps<{ product: RootProducts }>()
 const { product } = toRefs(props);
 
 const productImageSrcOne = computed(() => product.value?.images?.[0]?.src);
 const productImageSrcSecond = computed(() => product.value?.images?.[1]?.src);
 const productImageSrcThird = computed(() => product.value?.images?.[2]?.src);
+
+watch(productImageSrcOne, (newVal) => {
+  if (newVal) {
+    selectedImage.value = newVal;
+  }
+}, { immediate: true });
+
+const selectImage = (image: string) => {
+  selectedImage.value = image;
+}
 
 const getId = (id: number) => {
   console.log(id)
@@ -61,22 +73,23 @@ const getId = (id: number) => {
         <section
           class="relative flex w-full flex-col items-center justify-center gap-6 md:h-full md:w-1/2 md:flex-row-reverse">
           <figure class="flex h-full w-full items-center justify-center p-0 md:p-2">
-            <img v-if="productImageSrcOne" :src="productImageSrcOne" :alt="product.name" class="block md:max-w-full" />
+            <img v-if="selectedImage" :src="selectedImage" :alt="product.name" class="block md:max-w-full" />
           </figure>
 
           <div class="flex w-full items-center justify-around gap-2 md:w-auto md:flex-col md:justify-center md:gap-10">
-            <figure class="flex h-20 w-20 items-center justify-center border  border-700/20 p-1">
-              <img v-if="productImageSrcOne" :src="productImageSrcOne" :alt="product.name" class="block md:max-w-full" />
+            <figure class="flex h-20 w-20 cursor-pointer items-center justify-center border  border-700/20 p-1">
+              <img @click="selectImage(productImageSrcOne)" v-if="productImageSrcOne" :src="productImageSrcOne"
+                :alt="product.name" class="block md:max-w-full" />
             </figure>
 
-            <figure class="flex h-20 w-20 items-center justify-center border  border-700/20 p-1">
-              <img v-if="productImageSrcSecond" :src="productImageSrcSecond" :alt="product.name"
-                class="block md:max-w-full" />
+            <figure class="flex h-20 w-20 cursor-pointer items-center justify-center border  border-700/20 p-1">
+              <img @click="selectImage(productImageSrcSecond)" v-if="productImageSrcSecond" :src="productImageSrcSecond"
+                :alt="product.name" class="block md:max-w-full" />
             </figure>
 
-            <figure class="flex h-20 w-20 items-center justify-center border  border-700/20 p-1">
-              <img v-if="productImageSrcThird" :src="productImageSrcThird" :alt="product.name"
-                class="block md:max-w-full" />
+            <figure class="flex h-20 w-20 cursor-pointer items-center justify-center border  border-700/20 p-1">
+              <img @click="selectImage(productImageSrcThird)" v-if="productImageSrcThird" :src="productImageSrcThird"
+                :alt="product.name" class="block md:max-w-full" />
             </figure>
           </div>
         </section>
