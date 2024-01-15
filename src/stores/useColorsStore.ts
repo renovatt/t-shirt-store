@@ -8,8 +8,18 @@ export const useColorsStore = defineStore("useColorsStore", () => {
     colors.value = newColors;
   }
 
+  function removeColor(color: string) {
+    colors.value = colors.value.filter((c) => c !== color);
+  }
+
+  function clearColors() {
+    colors.value = [];
+  }
+
   return {
     setColors,
+    removeColor,
+    clearColors,
     colors
   }
 })

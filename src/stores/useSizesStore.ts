@@ -8,8 +8,18 @@ export const useSizesStore = defineStore("useSizesStore", () => {
     sizes.value = newSizes;
   }
 
+  function removeSize(size: string) {
+    sizes.value = sizes.value.filter((c) => c !== size);
+  }
+
+  function clearSizes() {
+    sizes.value = [];
+  }
+
   return {
     setSizes,
+    removeSize,
+    clearSizes,
     sizes
   }
 })
