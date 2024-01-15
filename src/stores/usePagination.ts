@@ -6,7 +6,7 @@ const DEFAULT_ITEMS = 24;
 const DEFAULT_PAGE_SIZE = 0;
 const DEFAULT_RELEVANT_FILTER = 'mais relevantes';
 
-export const usePagination = defineStore("usePagination", () => {
+export const usePaginationStore = defineStore("usePaginationStore", () => {
   const itemsToShow = ref<number>(DEFAULT_ITEMS)
   const page = ref<number>(DEFAULT_PAGE_SIZE);
   const products = ref<RootProducts[]>([])

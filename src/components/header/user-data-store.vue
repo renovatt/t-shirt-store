@@ -3,6 +3,7 @@ import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingBag, CircleUserRound, Search } from 'lucide-vue-next';
 
 const cartStore = useCartStore()
+
 </script>
 
 <template>

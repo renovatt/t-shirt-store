@@ -1,36 +1,11 @@
 <script setup lang="ts">
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
+import { TendenciesCategories } from '@/utils/mocks/filterInputCategories';
 import { XCircle } from 'lucide-vue-next';
-
-const TendenciesCategories = [
-  {
-    name: 'Anime e Mangá',
-    slug: 'anime',
-  },
-  {
-    name: 'Games',
-    slug: 'games',
-  },
-  {
-    name: 'Informática',
-    slug: 'informatica',
-  },
-  {
-    name: 'Pets',
-    slug: 'pets',
-  },
-  {
-    name: 'Música',
-    slug: 'musica',
-  },
-  {
-    name: 'Tecnologia',
-    slug: 'tecnologia',
-  }
-]
 
 const store = useCategoriesStore()
 defineEmits(['close'])
+
 </script>
 
 <template>

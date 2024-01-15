@@ -1,62 +1,32 @@
 <script setup lang="ts">
-import type { RootProducts } from '@/@types';
-import { useCartStore } from '@/stores/useCartStore';
 import { Plus, Minus } from 'lucide-vue-next';
-import { computed, reactive, ref, toRefs, watch } from 'vue';
+import type { RootProducts } from '@/@types';
+import { useItem } from '@/composables/useItem';
+import { useCartStore } from '@/stores/useCartStore';
+import { computed, ref, toRefs, watch } from 'vue';
+import { filterInputsizes } from '@/utils/mocks/filterInputsizes'
 
-interface SelectedSizes {
-  [key: string]: boolean;
-}
-
-type Item = {
-  id: number;
-  quantity: number;
-  size: string;
-  color: string;
-}
-
-const filterInputsizes = [
-  {
-    name: '2P',
-    slug: '2p',
-  },
-  {
-    name: 'P',
-    slug: 'p',
-  },
-  {
-    name: 'M',
-    slug: 'm',
-  },
-  {
-    name: 'G',
-    slug: 'g',
-  },
-  {
-    name: '2G',
-    slug: '2g',
-  },
-  {
-    name: '3G',
-    slug: '3g',
-  },
-  {
-    name: '4G',
-    slug: '4g',
-  },
-]
+const {
+  item,
+  selectedSizes,
+  selectedSize,
+  quantity,
+  toggledSize,
+  upItemQuantity,
+  lessItemQuantity,
+  checkQuantity,
+  resetSizes,
+  resetSelectedSize,
+  resetQuantity
+} = useItem()
 
 const cartStore = useCartStore()
-
-const item = ref<Item>({} as Item)
-const selectedSizes: SelectedSizes = reactive({})
-const selectedImage = ref('');
-const selectedSize = ref('')
-const quantity = ref(1)
 
 const emit = defineEmits(['close'])
 const props = defineProps<{ product: RootProducts }>()
 const { product } = toRefs(props);
+
+const selectedImage = ref('');
 
 const productImageSrcOne = computed(() => product.value?.images?.[0]?.src);
 const productImageSrcSecond = computed(() => product.value?.images?.[1]?.src);
@@ -72,43 +42,10 @@ const selectImage = (image: string) => {
   selectedImage.value = image;
 }
 
-const resetSizes = () => {
-  for (const key in selectedSizes) {
-    selectedSizes[key] = false;
-  }
-}
-
-const toggledSize = (size: string) => {
+const close = () => {
   resetSizes();
-  selectedSizes[size] = true;
-  selectedSize.value = size;
-}
-
-const upItemQuantity = () => {
-  let numQuantity = typeof quantity.value === 'string' ? parseInt(quantity.value) : quantity.value;
-  if (numQuantity < 20) {
-    numQuantity += 1;
-    quantity.value = numQuantity;
-  }
-}
-
-const lessItemQuantity = () => {
-  let numQuantity = typeof quantity.value === 'string' ? parseInt(quantity.value) : quantity.value;
-  if (numQuantity > 1) {
-    numQuantity -= 1;
-    quantity.value = numQuantity;
-  }
-}
-
-const checkQuantity = () => {
-  let numQuantity = typeof quantity.value === 'string' ? parseInt(quantity.value) : quantity.value;
-  quantity.value = Math.min(Math.max(numQuantity, 1), 20);
-}
-
-const closeModal = () => {
-  resetSizes();
-  quantity.value = 1
-  selectedSize.value = ''
+  resetQuantity()
+  resetSelectedSize()
   emit('close')
 }
 
@@ -123,15 +60,16 @@ const saveItem = () => {
   }
 
   cartStore.setSelectedProduct(item.value)
-  closeModal()
+  close()
 }
+
 </script>
 
 <template>
   <div class="fixed inset-0 z-50 flex h-screen w-screen items-center justify-center bg-700/20 p-5">
     <div class="relative flex h-[95%] w-[95%] max-w-7xl animate-zoom items-center justify-center bg-800 p-2">
 
-      <button @click="closeModal" class="absolute right-1 top-1 z-10 h-10 w-10 bg-700 text-800">X</button>
+      <button @click="close" class="absolute right-1 top-1 z-10 h-10 w-10 bg-700 text-800">X</button>
 
       <article
         class="relative flex h-full w-full  flex-col items-center justify-start gap-6 overflow-y-auto p-2 md:flex-row md:justify-center">

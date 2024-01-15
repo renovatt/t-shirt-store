@@ -1,34 +1,9 @@
 <script setup lang="ts">
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
-
-const TendenciesCategories = [
-  {
-    name: 'Anime e Mangá',
-    slug: 'anime',
-  },
-  {
-    name: 'Games',
-    slug: 'games',
-  },
-  {
-    name: 'Informática',
-    slug: 'informatica',
-  },
-  {
-    name: 'Pets',
-    slug: 'pets',
-  },
-  {
-    name: 'Música',
-    slug: 'musica',
-  },
-  {
-    name: 'Tecnologia',
-    slug: 'tecnologia',
-  }
-]
+import { TendenciesCategories } from '@/utils/mocks/filterInputCategories';
 
 const store = useCategoriesStore()
+
 </script>
 
 <template>

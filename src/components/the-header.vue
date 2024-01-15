@@ -7,6 +7,7 @@ import { ref } from 'vue';
 import { Menu } from 'lucide-vue-next';
 
 const isOpen = ref(false)
+
 </script>
 
 <template>

@@ -1,31 +1,18 @@
 <script setup lang="ts">
-import { onMounted, ref, watch } from 'vue';
 import AsideFilter from '@/components/the-aside-filters.vue';
-import { usePagination } from '@/stores/usePagination';
+import { usePaginationStore } from '@/stores/usePagination';
 import { ChevronLeft, ChevronRight } from 'lucide-vue-next';
+import { usePagination } from '@/composables/usePagination';
 
-const isActiveAsideFilter = ref(false)
-const relevantFilters = ref('mais relevantes')
-const quantityItems = ref('24')
-const pages = ref('1')
+const {
+  isActiveAsideFilter,
+  relevantFilters,
+  quantityItems,
+  pages,
+} = usePagination()
 
-const store = usePagination()
+const store = usePaginationStore()
 
-watch(() => store.page, (newPage) => {
-  pages.value = String(newPage)
-})
-
-watch(quantityItems, (newSelected) => {
-  store.setItemsToShow(Number(newSelected))
-})
-
-watch(relevantFilters, (newSelected) => {
-  store.setRelevantFilters(newSelected)
-})
-
-onMounted(() => {
-  pages.value = String(store.page)
-})
 </script>
 
 <template>

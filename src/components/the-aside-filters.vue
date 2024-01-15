@@ -1,168 +1,23 @@
 <script setup lang="ts">
 import { Plus, Minus, XCircle } from 'lucide-vue-next';
-import { computed, reactive, watch } from 'vue';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
-import { useColorsStore } from '@/stores/useColorsStore';
-import { useSizesStore } from '@/stores/useSizesStore';
+import { filterInputCategories } from '@/utils/mocks/filterInputCategories';
+import { filterInputColors } from '@/utils/mocks/filterInputColors';
+import { filterInputsizes } from '@/utils/mocks/filterInputsizes';
+import { useAsideFilters } from '@/composables/useAsideFilters';
 
-interface FilterSection {
-  color: boolean;
-  size: boolean;
-  category: boolean;
-  [key: string]: boolean;
-}
-
-interface SelectedSizes {
-  [key: string]: boolean;
-}
-
-interface SelectColors {
-  [key: string]: boolean;
-}
-
-const filterInputCategories = [
-  {
-    name: 'Anime e Mangá',
-    slug: 'anime',
-  },
-  {
-    name: 'Games',
-    slug: 'games',
-  },
-  {
-    name: 'Camiseta de Rock',
-    slug: 'rock',
-  },
-  {
-    name: 'Informática',
-    slug: 'informatica',
-  },
-  {
-    name: 'Pets',
-    slug: 'pets',
-  },
-  {
-    name: 'Música',
-    slug: 'musica',
-  },
-  {
-    name: 'Tecnologia',
-    slug: 'tecnologia',
-  },
-  {
-    name: 'Caveira',
-    slug: 'caveira',
-  }
-]
-
-const filterInputColors = [
-  {
-    hexadecimal: '#d30000',
-    name: 'Vermelho',
-    slug: 'vermelho'
-  },
-  {
-    hexadecimal: '#e1e0da',
-    name: 'Mescla Banana',
-    slug: 'mescla-banana'
-  },
-  {
-    hexadecimal: '#000958',
-    name: 'Azul Marinho',
-    slug: 'azul-marinho'
-  },
-  {
-    hexadecimal: '#2585b1',
-    name: 'Azul Genuino',
-    slug: 'azul-genuino'
-  },
-  {
-    hexadecimal: '#bcbcbc',
-    name: 'Mescla Cinza',
-    slug: 'mescla-cinza'
-  },
-  {
-    hexadecimal: '#000000',
-    name: 'Preto',
-    slug: 'preto'
-  },
-  {
-    hexadecimal: '#fafafa',
-    name: 'Off White',
-    slug: 'off-white'
-  },
-]
-
-const filterInputsizes = [
-  {
-    name: '2P',
-    slug: '2p',
-  },
-  {
-    name: 'P',
-    slug: 'p',
-  },
-  {
-    name: 'M',
-    slug: 'm',
-  },
-  {
-    name: 'G',
-    slug: 'g',
-  },
-  {
-    name: '2G',
-    slug: '2g',
-  },
-  {
-    name: '3G',
-    slug: '3g',
-  },
-  {
-    name: '4G',
-    slug: '4g',
-  },
-]
+const {
+  filterSection,
+  selectedSizes,
+  toggleColor,
+  toggledSize,
+  isAccordion,
+} = useAsideFilters()
 
 const storeCategories = useCategoriesStore()
-const storeColors = useColorsStore()
-const storeSizes = useSizesStore()
-
-const filterSection: FilterSection = reactive({
-  color: true,
-  size: true,
-  category: true,
-})
-const selectedColors: SelectColors = reactive({})
-const selectedSizes: SelectedSizes = reactive({})
-
-const toggleColor = (color: string) => {
-  selectedColors[color] = !selectedColors[color]
-}
-
-const toggledSize = (size: string) => {
-  selectedSizes[size] = !selectedSizes[size]
-}
-
-const selectedColorsArray = computed(() => {
-  return Object.keys(selectedColors).filter(color => selectedColors[color])
-})
-
-const selectedSizesArray = computed(() => {
-  return Object.keys(selectedSizes).filter(size => selectedSizes[size])
-})
-
-watch(selectedColors, () => {
-  storeColors.setColors(selectedColorsArray.value)
-})
-
-watch(selectedSizes, () => {
-  storeSizes.setSizes(selectedSizesArray.value)
-})
-
-const isAccordion = (section: string) => computed(() => filterSection[section] ? 'flex' : 'hidden');
 
 defineEmits(['close'])
+
 </script>
 
 <template>
@@ -184,9 +39,8 @@ defineEmits(['close'])
 
         <fieldset :class="isAccordion('category').value" class="ml-6 flex flex-col items-start justify-center">
           <ul class="flex w-full flex-col items-start justify-center">
-            <li @click="storeCategories.setCategory(category); $emit('close')"
-              v-for="category in filterInputCategories" :key="category.slug"
-              class="cursor-pointer text-700 opacity-80 transition-all hover:opacity-100">
+            <li @click="storeCategories.setCategory(category); $emit('close')" v-for="category in filterInputCategories"
+              :key="category.slug" class="cursor-pointer text-700 opacity-80 transition-all hover:opacity-100">
               {{ category.name }}
             </li>
           </ul>
