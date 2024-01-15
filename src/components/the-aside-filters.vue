@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { Plus, Minus, XCircle } from 'lucide-vue-next';
+import { Plus, Minus, XCircle, X } from 'lucide-vue-next';
 import { useCategoriesStore } from '@/stores/useCategoriesStore';
 import { filterInputCategories } from '@/utils/mocks/filterInputCategories';
 import { filterInputColors } from '@/utils/mocks/filterInputColors';
 import { filterInputsizes } from '@/utils/mocks/filterInputsizes';
 import { useAsideFilters } from '@/composables/useAsideFilters';
+// import { useColorsStore } from '@/stores/useColorsStore';
+// import { useSizesStore } from '@/stores/useSizesStore';
 
 const {
   filterSection,
@@ -15,6 +17,8 @@ const {
 } = useAsideFilters()
 
 const storeCategories = useCategoriesStore()
+// const storeColors = useColorsStore()
+// const storeSizes = useSizesStore()
 
 defineEmits(['close'])
 
@@ -27,6 +31,29 @@ defineEmits(['close'])
       <section class="sticky top-0 z-20 flex w-full items-center justify-between bg-700 p-4">
         <h1 class="text-base text-800">Filtros</h1>
         <XCircle @click="$emit('close')" class="h-10 w-10 cursor-pointer bg-700 p-2 text-base uppercase text-800" />
+      </section>
+
+      <section v-show="storeCategories.category.slug !== 'novidades'"
+        class="my-2 flex w-full flex-col items-start justify-between gap-4 p-2 px-8">
+        <h2>Categoria atual</h2>
+
+        <div v-show="storeCategories.category.slug !== 'novidades'"
+          class="flex w-full items-center justify-between border border-700/20 p-2">
+          <span class="capitalize text-700 opacity-80">{{ storeCategories.category.name }}</span>
+          <X class="cursor-pointer" @click="storeCategories.resetCategory" />
+        </div>
+
+        <!-- <div v-for="color in storeColors.colors" :key="color"
+          class="flex w-full items-center justify-between border border-700/20 p-2">
+          <span class="capitalize text-700 opacity-80">{{ color }}</span>
+          <X class="cursor-pointer" @click="storeColors.clearColors" />
+        </div> -->
+
+        <!-- <div v-for="size in storeSizes.sizes" :key="size"
+          class="flex w-full items-center justify-between border border-700/20 p-2">
+          <span class="uppercase text-700 opacity-80">{{ size }}</span>
+          <X class="cursor-pointer" @click="storeSizes.clearSizes" />
+        </div> -->
       </section>
 
       <section class="flex flex-col items-start justify-center border-b border-700/10 p-2">
@@ -75,7 +102,7 @@ defineEmits(['close'])
         </span>
 
         <fieldset :class="isAccordion('size').value" class="flex flex-wrap gap-1">
-          <label :class="selectedSizes[size.slug] ? 'checked' : ''"
+          <label :class="selectedSizes[size.slug] ? 'checked' : 'bg-700'"
             class="relative flex h-10 w-28 items-center justify-center border border-700/20 bg-800 px-4 py-2 hover:bg-700 hover:text-800"
             v-for="size in filterInputsizes" :key="size.slug" :for="size.slug">
             <input @change="toggledSize(size.slug)" :class="`appearance_input_reset`"
