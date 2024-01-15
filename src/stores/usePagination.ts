@@ -65,6 +65,12 @@ export const usePaginationStore = defineStore("usePaginationStore", () => {
     }
   })
 
+  watch(totalProducts, (newTotalProducts) => {
+    if (newTotalProducts === 0) {
+      page.value = 0;
+    }
+  })
+
   return {
     totalProducts,
     itemsToShow,
