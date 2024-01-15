@@ -10,7 +10,16 @@ import { useSizesStore } from '@/stores/useSizesStore';
 import { ref, computed, onMounted } from 'vue';
 import ClothModal from './the-cloth-modal.vue';
 import { ShoppingCart, Eye } from 'lucide-vue-next';
+import { useCartStore } from '@/stores/useCartStore';
 
+type Item = {
+  id: number;
+  quantity: number;
+  size: string;
+  color: string;
+}
+
+const item = ref<Item>({} as Item)
 const selectedProduct = ref<RootProducts>({} as RootProducts)
 const products = ref<RootProducts[]>([])
 const view = ref(false)
@@ -19,6 +28,7 @@ const storeCategories = useCategoriesStore()
 const storeColors = useColorsStore()
 const storeSizes = useSizesStore()
 const storePagination = usePagination()
+const cartStore = useCartStore()
 
 const filteredProducts = computed(() => {
   let filtered = products.value.filter(product => {
@@ -53,6 +63,19 @@ const getProduct = (id: number) => {
     view.value = !view.value;
   }
 }
+
+const addItemToCart = (id: number) => {
+  const product = products.value.find(product => product.id === id);
+  if (product) {
+    item.value = {
+      id: product.id,
+      quantity: 1,
+      size: product.variation.attribute.name,
+      color: product.color.name
+    }
+  }
+  cartStore.setSelectedProduct(item.value)
+}
 </script>
 
 <template>
@@ -82,7 +105,7 @@ const getProduct = (id: number) => {
         }) }}
       </template>
       <template #cart>
-        <ShoppingCart class="text-800" />
+        <ShoppingCart class="text-800" @click="addItemToCart(product.id)" />
       </template>
       <template #view>
         <Eye class="text-800" @click="getProduct(product.id)" />

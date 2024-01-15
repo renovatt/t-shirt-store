@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingBag, CircleUserRound, Search } from 'lucide-vue-next';
+
+const cartStore = useCartStore()
 </script>
 
 <template>
@@ -8,6 +11,7 @@ import { ShoppingBag, CircleUserRound, Search } from 'lucide-vue-next';
     <CircleUserRound class="h-8 w-8" />
     <ShoppingBag class="h-8 w-8" />
     <span
-      class="absolute right-0 flex h-5 w-5 items-center justify-center overflow-hidden rounded-full bg-700 text-xs text-800">6</span>
+      class="absolute right-0 flex h-5 w-5 items-center justify-center overflow-hidden rounded-full bg-700 text-xs text-800">{{
+        cartStore.quantity }}</span>
   </section>
 </template>

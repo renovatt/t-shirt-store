@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { RootProducts } from '@/@types';
+import { useCartStore } from '@/stores/useCartStore';
 import { Plus, Minus } from 'lucide-vue-next';
 import { computed, reactive, ref, toRefs, watch } from 'vue';
 
@@ -45,6 +46,8 @@ const filterInputsizes = [
   },
 ]
 
+const cartStore = useCartStore()
+
 const item = ref<Item>({} as Item)
 const selectedSizes: SelectedSizes = reactive({})
 const selectedImage = ref('');
@@ -81,19 +84,6 @@ const toggledSize = (size: string) => {
   selectedSize.value = size;
 }
 
-const saveItem = () => {
-  if (!selectedSize.value) return alert('Selecione um tamanho')
-
-  item.value = {
-    id: product.value.id,
-    quantity: quantity.value,
-    size: selectedSize.value,
-    color: product.value.color.name
-  }
-
-  console.log(item.value)
-}
-
 const upItemQuantity = () => {
   let numQuantity = typeof quantity.value === 'string' ? parseInt(quantity.value) : quantity.value;
   if (numQuantity < 20) {
@@ -120,6 +110,20 @@ const closeModal = () => {
   quantity.value = 1
   selectedSize.value = ''
   emit('close')
+}
+
+const saveItem = () => {
+  if (!selectedSize.value) return alert('Selecione um tamanho')
+
+  item.value = {
+    id: product.value.id,
+    quantity: quantity.value,
+    size: selectedSize.value,
+    color: product.value.color.name
+  }
+
+  cartStore.setSelectedProduct(item.value)
+  closeModal()
 }
 </script>
 
