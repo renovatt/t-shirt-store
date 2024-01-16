@@ -5,7 +5,7 @@ import { ShoppingBag, CircleUserRound, Search } from 'lucide-vue-next';
 import CartDropdown from '../the-cart-dropdown.vue';
 
 const cartStore = useCartStore()
-const openCart = ref(true)
+const openCart = ref(false)
 
 </script>
 
