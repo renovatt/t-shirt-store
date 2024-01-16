@@ -31,6 +31,9 @@ const selectedImage = ref('');
 const productImageSrcOne = computed(() => product.value?.images?.[0]?.src);
 const productImageSrcSecond = computed(() => product.value?.images?.[1]?.src);
 const productImageSrcThird = computed(() => product.value?.images?.[2]?.src);
+const price = computed(() => product.value?.price);
+const parcel = computed(() => product.value?.payments?.creditcard?.max_installment?.parcel);
+const parcel_price = computed(() => product.value?.payments?.creditcard?.max_installment?.parcel_price);
 
 watch(productImageSrcOne, (newVal) => {
   if (newVal) {
@@ -132,31 +135,37 @@ const saveItem = () => {
             </div>
 
             <div class="flex flex-col items-start justify-center">
-              <span class="text-xl font-bold text-700/70">
-                {{ product.price.toLocaleString('pt-BR', {
+              <span v-if="price" class="text-xl font-bold text-700/70">
+                {{ price.toLocaleString('pt-BR', {
                   currency: 'BRL',
                   style: 'currency'
                 }) }}
               </span>
-              <span class="text-base text-700/70">em até
-                {{ product.payments.creditcard.max_installment.parcel }}x de {{
-                  product.payments.creditcard.max_installment.parcel_price.toLocaleString('pt-BR', {
+              <span v-if="parcel && parcel_price" class="text-base text-700/70">em até
+                {{ parcel }}x de {{
+                  parcel_price.toLocaleString('pt-BR', {
                     currency: 'BRL',
                     style: 'currency'
                   }) }} sem juros</span>
             </div>
 
             <div class="flex w-full flex-col items-start justify-between gap-6">
-              <div class="flex items-center justify-center gap-4 border border-900 p-2 text-700/80 outline-none">
-                <Minus class="h-3 w-3 cursor-pointer" @click="lessItemQuantity" />
+              <div class="flex items-center justify-center gap-4 border border-900 p-0 text-700/80 outline-none">
+                <span @click="lessItemQuantity"
+                  class="flex h-10 w-10 cursor-pointer items-center justify-center border-r">
+                  <Minus class="h-3 w-3" />
+                </span>
+
                 <span class="w-10 px-2 text-center">
                   <input class="w-full text-center outline-none" type="text" v-model="quantity" @blur="checkQuantity">
                 </span>
-                <Plus class="h-3 w-3 cursor-pointer" @click="upItemQuantity" />
+
+                <span @click="upItemQuantity" class="flex h-10 w-10 cursor-pointer items-center justify-center border-l">
+                  <Plus class="h-3 w-3" />
+                </span>
               </div>
               <button class="w-full bg-700 p-4 text-base uppercase text-800" @click="saveItem">Adicionar</button>
             </div>
-
           </article>
         </section>
       </article>
