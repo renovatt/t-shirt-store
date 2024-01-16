@@ -9,8 +9,15 @@ export const useCartStore = defineStore("useCartStore", {
   }),
   actions: {
     setSelectedProduct(product: CartItem) {
+      const existingProduct = this.cart.find((item) => item.id === product.id);
+
+      if (existingProduct) {
+        existingProduct.quantity += 1;
+      } else {
+        this.setCart(product);
+      }
+
       this.selectedProduct = product;
-      this.setCart(product)
     },
     setCart(product: CartItem) {
       this.cart = [...this.cart, product];
@@ -22,6 +29,6 @@ export const useCartStore = defineStore("useCartStore", {
     removeItem(id: number) {
       this.cart = this.cart.filter((item) => item.id !== id);
       this.calcQuantity();
-    },  
+    },
   }
 });
