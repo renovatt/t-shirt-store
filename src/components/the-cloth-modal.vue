@@ -56,7 +56,10 @@ const saveItem = () => {
     id: product.value.id,
     quantity: quantity.value,
     size: selectedSize.value,
-    color: product.value.color.name
+    color: product.value.color.name,
+    price: product.value.price,
+    name: product.value.name,
+    image: product.value.images[0].src
   }
 
   cartStore.setSelectedProduct(item.value)

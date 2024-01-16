@@ -297,3 +297,13 @@ export interface Image4 {
   alt: any
   position: any
 }
+
+export interface CartItem{
+    id: number;
+    name: string;
+    quantity: number;
+    size: string;
+    color: string;
+    price: number;
+    image: string;
+}

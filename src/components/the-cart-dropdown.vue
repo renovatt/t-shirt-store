@@ -1,86 +1,48 @@
 <script setup lang="ts">
 import { Trash2 } from 'lucide-vue-next';
 import CartItem from './the-cart-item.vue';
+import { useCartStore } from '@/stores/useCartStore';
 
 defineEmits(['close'])
+
+const storeCart = useCartStore()
+
 </script>
 
 <template>
   <section
     class="absolute right-0 top-10 z-50 flex w-[17.875rem] animate-open flex-col items-center justify-between gap-4 rounded-lg bg-800 p-2 px-4 shadow-2xl shadow-700/40 md:min-h-96 md:w-[19.75rem]"
     @mouseleave="$emit('close')">
-    <section
+    <section v-if="storeCart.cart.length > 0"
       class="flex max-h-60 flex-col items-center justify-start space-y-6 overflow-y-auto scrollbar-hide md:max-h-[26rem]">
-      <CartItem>
+      <CartItem v-for="item in storeCart.cart" :key="item.id">
+        <template #image>
+          <img :src="item.image" alt="image-product" class="block h-full w-full object-contain" />
+        </template>
+
         <template #name>
-          Camiseta Yu Yu Hakusho
+          {{ item.name }}
         </template>
 
         <template #price>
-          R$79.90
+          {{ item.price.toLocaleString('pt-BR', {
+            currency: 'BRL',
+            style: 'currency'
+          }) }}
+        </template>
+
+        <template #quantity>
+          {{ item.quantity }}
         </template>
 
         <template #close-icon>
-          <Trash2 class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
-        </template>
-      </CartItem>
-
-      <CartItem>
-        <template #name>
-          Camiseta Yu Yu Hakusho
-        </template>
-
-        <template #price>
-          R$79.90
-        </template>
-
-        <template #close-icon>
-          <Trash2 class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
-        </template>
-      </CartItem>
-
-      <CartItem>
-        <template #name>
-          Camiseta Yu Yu Hakusho
-        </template>
-
-        <template #price>
-          R$79.90
-        </template>
-
-        <template #close-icon>
-          <Trash2 class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
-        </template>
-      </CartItem>
-
-      <CartItem>
-        <template #name>
-          Camiseta Yu Yu Hakusho
-        </template>
-
-        <template #price>
-          R$79.90
-        </template>
-
-        <template #close-icon>
-          <Trash2 class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
-        </template>
-      </CartItem>
-
-      <CartItem>
-        <template #name>
-          Camiseta Yu Yu Hakusho
-        </template>
-
-        <template #price>
-          R$79.90
-        </template>
-
-        <template #close-icon>
-          <Trash2 class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
+          <Trash2 @click="storeCart.removeItem(item.id)"
+            class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
         </template>
       </CartItem>
     </section>
+
+    <div v-else class="my-20">Sem itens no carrinho</div>
 
     <section class="mb-5 flex w-full flex-col items-center justify-center gap-4">
       <div class="flex w-full items-center justify-between">

@@ -62,7 +62,10 @@ export const useFilters = () => {
         id: product.id,
         quantity: 1,
         size: product.variation.attribute.name,
-        color: product.color.name
+        color: product.color.name,
+        price: product.price,
+        name: product.name,
+        image: product.images[0].src
       }
       storeCart.setSelectedProduct(item.value)
     }

@@ -1,21 +1,15 @@
+import type { CartItem } from "@/@types";
 import { ref, reactive } from "vue";
 
 interface SelectedSizes {
   [key: string]: boolean;
 }
 
-type Item = {
-  id: number;
-  quantity: number;
-  size: string;
-  color: string;
-}
-
 const MAX_QUANTITY = 20;
 const MIN_QUANTITY = 1;
 
 export const useItem =()=>{
-  const item = ref<Item>({} as Item)
+  const item = ref<CartItem>({} as CartItem)
   const selectedSizes: SelectedSizes = reactive({})
   const selectedSize = ref('')
   const quantity = ref(MIN_QUANTITY)
