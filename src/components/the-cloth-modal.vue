@@ -132,8 +132,18 @@ const saveItem = () => {
             </div>
 
             <div class="flex flex-col items-start justify-center">
-              <span class="text-xl font-bold text-700/70">R$ 79,90</span>
-              <span class="text-base text-700/70">em até 2x de R$ 39,95 sem juros</span>
+              <span class="text-xl font-bold text-700/70">
+                {{ product.price.toLocaleString('pt-BR', {
+                  currency: 'BRL',
+                  style: 'currency'
+                }) }}
+              </span>
+              <span class="text-base text-700/70">em até
+                {{ product.payments.creditcard.max_installment.parcel }}x de {{
+                  product.payments.creditcard.max_installment.parcel_price.toLocaleString('pt-BR', {
+                    currency: 'BRL',
+                    style: 'currency'
+                  }) }} sem juros</span>
             </div>
 
             <div class="flex w-full flex-col items-start justify-between gap-6">
