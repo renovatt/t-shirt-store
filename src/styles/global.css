@@ -4,15 +4,14 @@
 
 @layer base {
   body {
-    @apply leading-relaxed tracking-widest scrollbar-hide;
+    @apply leading-relaxed tracking-widest;
   }
 }
 
 .container,
-.container-fluid,
-.container-lg,
-.container-md,
 .container-sm,
+.container-md,
+.container-lg,
 .container-xl,
 .container-xxl {
   --bs-gutter-x: 1.5rem;
