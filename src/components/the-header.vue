@@ -12,7 +12,7 @@ const isOpen = ref(false)
 
 <template>
   <header
-    class="sticky inset-0 z-10 flex w-full flex-col items-center justify-between gap-4 space-y-4 overflow-hidden bg-900 p-2 py-4 shadow-2xl shadow-700/10">
+    class="sticky inset-0 z-10 flex w-full flex-col items-center justify-between gap-4 space-y-4 bg-900 p-2 py-4 shadow-2xl shadow-700/10">
     <article class="container flex w-full flex-col items-center justify-between gap-4 bg-900">
       <section class="flex w-full flex-wrap items-center justify-between">
         <div class="flex items-center justify-center gap-4">
