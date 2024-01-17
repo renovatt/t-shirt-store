@@ -37,6 +37,16 @@ export const useAsideFilters = () => {
     selectedSizes[size] = !selectedSizes[size]
   }
 
+  const removeColor = (color: string) => {
+    storeColors.removeColor(color);
+    delete selectedColors[color];
+  }
+
+  const removeSize = (size: string) => {
+    storeSizes.removeSize(size);
+    delete selectedSizes[size];
+  }
+
   const selectedColorsArray = computed(() => {
     return Object.keys(selectedColors).filter(color => selectedColors[color])
   })
@@ -44,6 +54,8 @@ export const useAsideFilters = () => {
   const selectedSizesArray = computed(() => {
     return Object.keys(selectedSizes).filter(size => selectedSizes[size])
   })
+
+  const isAccordion = (section: string) => computed(() => filterSection[section] ? 'flex' : 'hidden');
 
   watch(selectedColors, () => {
     storeColors.setColors(selectedColorsArray.value)
@@ -53,12 +65,12 @@ export const useAsideFilters = () => {
     storeSizes.setSizes(selectedSizesArray.value)
   })
 
-  const isAccordion = (section: string) => computed(() => filterSection[section] ? 'flex' : 'hidden');
-
   return {
     filterSection,
     selectedColors,
     selectedSizes,
+    removeColor,
+    removeSize,
     toggleColor,
     toggledSize,
     isAccordion,

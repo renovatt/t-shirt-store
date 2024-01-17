@@ -5,20 +5,21 @@ import { filterInputCategories } from '@/utils/mocks/filterInputCategories';
 import { filterInputColors } from '@/utils/mocks/filterInputColors';
 import { filterInputsizes } from '@/utils/mocks/filterInputsizes';
 import { useAsideFilters } from '@/composables/useAsideFilters';
-// import { useColorsStore } from '@/stores/useColorsStore';
-// import { useSizesStore } from '@/stores/useSizesStore';
+import { useColorsStore } from '@/stores/useColorsStore';
+import { useSizesStore } from '@/stores/useSizesStore';
 
 const {
   filterSection,
+  selectedColors,
   selectedSizes,
-  toggleColor,
-  toggledSize,
+  removeColor,
+  removeSize,
   isAccordion,
 } = useAsideFilters()
 
 const storeCategories = useCategoriesStore()
-// const storeColors = useColorsStore()
-// const storeSizes = useSizesStore()
+const storeColors = useColorsStore()
+const storeSizes = useSizesStore()
 
 defineEmits(['close'])
 
@@ -33,7 +34,8 @@ defineEmits(['close'])
         <XCircle @click="$emit('close')" class="h-10 w-10 cursor-pointer bg-700 p-2 text-base uppercase text-800" />
       </section>
 
-      <section v-show="storeCategories.category.slug !== 'novidades'"
+      <section
+        v-show="storeCategories.category.slug !== 'novidades' || storeColors.colors.length > 0 || storeSizes.sizes.length > 0"
         class="my-2 flex w-full flex-col items-start justify-between gap-4 p-2 px-8">
         <h2>Categoria atual</h2>
 
@@ -43,17 +45,17 @@ defineEmits(['close'])
           <X class="cursor-pointer" @click="storeCategories.resetCategory" />
         </div>
 
-        <!-- <div v-for="color in storeColors.colors" :key="color"
+        <div v-for="color in storeColors.colors" :key="color"
           class="flex w-full items-center justify-between border border-700/20 p-2">
           <span class="capitalize text-700 opacity-80">{{ color }}</span>
-          <X class="cursor-pointer" @click="storeColors.clearColors" />
-        </div> -->
+          <X class="cursor-pointer" @click="removeColor(color)" />
+        </div>
 
-        <!-- <div v-for="size in storeSizes.sizes" :key="size"
+        <div v-for="size in storeSizes.sizes" :key="size"
           class="flex w-full items-center justify-between border border-700/20 p-2">
           <span class="uppercase text-700 opacity-80">{{ size }}</span>
-          <X class="cursor-pointer" @click="storeSizes.clearSizes" />
-        </div> -->
+          <X class="cursor-pointer" @click="removeSize(size)" />
+        </div>
       </section>
 
       <section class="flex flex-col items-start justify-center border-b border-700/10 p-2">
@@ -87,7 +89,7 @@ defineEmits(['close'])
             class="flex cursor-pointer items-center justify-center gap-2" :for="option.name">
             <input :style="{ backgroundColor: option.hexadecimal }" :class="`appearance_reset`"
               class="relative h-5 w-5 cursor-pointer rounded-full border border-700/40 before:rounded-full before:border-700/40 checked:before:border checked:before:bg-800"
-              @change="toggleColor(option.slug)" type="checkbox" :name="option.name" :id="option.name">
+              v-model="selectedColors[option.slug]" type="checkbox" :name="option.name" :id="option.name">
             <span class="text-700 opacity-80 transition-all hover:opacity-100">{{ option.name }}</span>
           </label>
         </fieldset>
@@ -102,10 +104,10 @@ defineEmits(['close'])
         </span>
 
         <fieldset :class="isAccordion('size').value" class="flex flex-wrap gap-1">
-          <label :class="selectedSizes[size.slug] ? 'checked' : 'bg-700'"
+          <label :class="selectedSizes[size.slug] ? 'checked' : ''"
             class="relative flex h-10 w-28 items-center justify-center border border-700/20 bg-800 px-4 py-2 hover:bg-700 hover:text-800"
             v-for="size in filterInputsizes" :key="size.slug" :for="size.slug">
-            <input @change="toggledSize(size.slug)" :class="`appearance_input_reset`"
+            <input v-model="selectedSizes[size.slug]" :class="`appearance_input_reset`"
               class="absolute inset-0 h-full w-full cursor-pointer border border-700/40" type="checkbox" :id="size.slug">
             <span>{{ size.name }}</span>
           </label>
