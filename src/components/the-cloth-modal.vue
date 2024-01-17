@@ -150,14 +150,15 @@ const saveItem = () => {
             </div>
 
             <div class="flex w-full flex-col items-start justify-between gap-6">
-              <div class="flex items-center justify-center gap-4 border border-900 p-0 text-700/80 outline-none">
+              <div class="flex items-center justify-center gap-0 border border-900 text-700/80 outline-none">
                 <span @click="lessItemQuantity"
                   class="flex h-10 w-10 cursor-pointer items-center justify-center border-r">
                   <Minus class="h-3 w-3" />
                 </span>
 
-                <span class="w-10 px-2 text-center">
-                  <input class="w-full text-center outline-none" type="text" v-model="quantity" @blur="checkQuantity">
+                <span class="h-10 w-10 text-center">
+                  <input class="h-full w-full text-center outline-none" type="text" v-model="quantity"
+                    @blur="checkQuantity">
                 </span>
 
                 <span @click="upItemQuantity" class="flex h-10 w-10 cursor-pointer items-center justify-center border-l">
