@@ -65,7 +65,7 @@ const saveItem = () => {
     image: product.value.images[0].src
   }
 
-  cartStore.setSelectedProduct(item.value)
+  cartStore.setSelectedProduct(item.value, quantity.value)
   close()
 }
 

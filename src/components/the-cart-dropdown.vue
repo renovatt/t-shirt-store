@@ -50,7 +50,13 @@ const storeCart = useCartStore()
           Subtotal
         </h2>
 
-        <span class="flex items-center justify-start text-[0.875rem] font-bold text-700">R$79.90</span>
+        <span class="flex items-center justify-start text-[0.875rem] font-bold text-700">{{
+          storeCart.total.toLocaleString('pt-BR',
+            {
+              currency: 'BRL',
+              style: 'currency'
+            }) }}
+        </span>
       </div>
 
       <div class="flex w-full items-center justify-between">
