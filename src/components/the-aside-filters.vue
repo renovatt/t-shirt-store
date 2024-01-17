@@ -26,8 +26,8 @@ defineEmits(['close'])
 </script>
 
 <template>
-  <section class="fixed inset-0 z-10 h-screen w-screen bg-700/50">
-    <aside
+  <section class="fixed inset-0 z-10 h-screen w-screen bg-700/50" @click="$emit('close')">
+    <aside @click.stop
       class="fixed left-0 top-0 h-screen w-3/4 animate-open overflow-y-auto bg-800 shadow-2xl shadow-700 scrollbar-hide md:w-1/3">
       <section class="sticky top-0 z-20 flex w-full items-center justify-between bg-700 p-4">
         <h1 class="text-base text-800">Filtros</h1>

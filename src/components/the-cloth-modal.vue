@@ -72,8 +72,8 @@ const saveItem = () => {
 </script>
 
 <template>
-  <div class="fixed inset-0 z-50 flex h-screen w-screen items-center justify-center bg-700/20 p-5">
-    <div class="relative flex h-[95%] w-[95%] max-w-7xl animate-zoom items-center justify-center bg-800 p-2">
+  <div @click="close" class="fixed inset-0 z-50 flex h-screen w-screen items-center justify-center bg-700/20 p-5">
+    <div @click.stop class="relative flex h-[95%] w-[95%] max-w-7xl animate-zoom items-center justify-center bg-800 p-2">
 
       <button @click="close" class="absolute right-1 top-1 z-10 h-10 w-10 bg-700 text-800">X</button>
 

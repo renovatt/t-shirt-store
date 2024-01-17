@@ -9,8 +9,8 @@ defineEmits(['close'])
 </script>
 
 <template>
-  <section class="fixed inset-0 z-10 flex h-screen w-screen bg-700/50 md:hidden">
-    <aside
+  <section @click="$emit('close')" class="fixed inset-0 z-10 flex h-screen w-screen bg-700/50 md:hidden">
+    <aside @click.stop
       class="fixed left-0 top-0 h-screen w-3/4 animate-open overflow-y-auto bg-900 shadow-2xl shadow-700 scrollbar-hide">
       <section class="sticky top-0 flex w-full items-center justify-end bg-900 p-4">
         <XCircle @click="$emit('close')" class="h-10 w-10 cursor-pointer p-2 text-base uppercase text-700" />
