@@ -1,4 +1,17 @@
 <script setup lang="ts">
+import { useCartStore } from '@/stores/useCartStore';
+import { computed } from 'vue';
+
+const storeCart = useCartStore()
+
+const formatFifthAsCurrency = (value: number) => {
+  return computed(() => {
+    return (value / 5).toLocaleString('pt-BR', {
+      style: 'currency',
+      currency: 'BRL'
+    })
+  })
+}
 
 </script>
 
@@ -7,8 +20,13 @@
     <h2 class="text-base font-bold text-700">Resumo</h2>
 
     <div class="flex w-full items-center justify-between">
-      <h2 class="text-base text-700">Total</h2>
-      <span class="text-base text-700">R$ 400,00</span>
+      <h2 class="text-base text-700">Subtotal</h2>
+      <span class="text-base text-700">
+        {{ storeCart.total.toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL'
+        }) }}
+      </span>
     </div>
 
     <div class="flex w-full items-center justify-between">
@@ -25,9 +43,14 @@
       <h2 class="text-base font-bold text-700">Total</h2>
 
       <div class="flex w-full flex-col items-end justify-center">
-        <span class="text-xl font-bold text-700">R$ 400,00</span>
+        <span class="text-xl font-bold text-700">
+          {{ storeCart.total.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL'
+          }) }}
+        </span>
         <span class="text-xs">à vista com 3% OFF</span>
-        <span class="text-xs font-bold text-600">ou 5x R$ 48,23 sem juros</span>
+        <span class="text-xs font-bold text-600">ou 5x {{ formatFifthAsCurrency(storeCart.total).value }} sem juros</span>
       </div>
     </div>
 

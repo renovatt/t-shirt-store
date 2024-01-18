@@ -1,7 +1,22 @@
 <script setup lang="ts">
+import type { CartItem } from '@/@types';
 import CartCheckoutItem from '@/components/the-cart-checkout-item.vue';
 import CartCheckout from '@/components/the-cart-checkout.vue';
+import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingCart } from 'lucide-vue-next';
+import { computed } from 'vue';
+
+const storeCart = useCartStore()
+
+const formatCartItemTotalAsCurrency = (item: CartItem) => {
+  return computed(() => {
+    return (item.price * item.quantity).toLocaleString('pt-BR', {
+      style: 'currency',
+      currency: 'BRL'
+    })
+  })
+}
+
 </script>
 
 <template>
@@ -16,35 +31,34 @@ import { ShoppingCart } from 'lucide-vue-next';
           <ShoppingCart class="h-8 w-8 text-700" />
           <h2 class="text-2xl font-bold text-700">Carrinho</h2>
         </div>
-        <h5 class="text-base text-700">23 Produtos</h5>
+        <h5 class="text-base text-700">{{ storeCart.quantity }} Produtos</h5>
       </header>
 
       <article class="flex w-full flex-col items-start justify-between gap-4 md:flex-row">
         <section class="w-full space-y-4 overflow-y-auto scrollbar-hide md:w-2/3">
-          <CartCheckoutItem>
+          <CartCheckoutItem v-for="item in storeCart.cart" :key="item.id">
             <template #image>
-              <img src="https://cdn.dooca.store/292/products/camiseta-akira-aberta.jpg?v=1585245966" alt="camiseta-image"
-                class="block h-full w-full object-contain">
+              <img :src="item.image" :alt="item.name" class="block h-full w-full object-contain">
             </template>
 
             <template #price-color>
-              Off White / G
+              {{ item.color }} / {{ item.size }}
             </template>
 
             <template #name>
-              Camiseta Cavaleiros Do Apocalipse
+              {{ item.name }}
             </template>
 
             <template #remove>
-              Remover
+              <span @click="storeCart.removeItem(item.id)">Remover</span>
             </template>
 
             <template #quantity>
-              x3
+              x{{ item.quantity }}
             </template>
 
             <template #total-price>
-              R$345,00
+              {{ formatCartItemTotalAsCurrency(item).value }}
             </template>
           </CartCheckoutItem>
         </section>
