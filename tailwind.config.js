@@ -11,6 +11,7 @@ export default {
         900: "#e3e3e3",
         800: "#ffffff",
         700: "#1e1f20",
+        600: "#009349",
       },
       keyframes: {
         open: {
