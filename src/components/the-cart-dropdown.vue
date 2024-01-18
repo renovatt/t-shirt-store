@@ -60,9 +60,9 @@ const storeCart = useCartStore()
       </div>
 
       <div class="flex w-full items-center justify-between">
-        <button class="bg-700 p-2 px-4 text-base uppercase text-800">
+        <RouterLink to="/cart" class="bg-700 p-2 px-4 text-base uppercase text-800">
           carrinho
-        </button>
+        </RouterLink>
 
         <button class="bg-700 p-2 px-4 text-base uppercase text-800">
           Checkout
