@@ -3,10 +3,12 @@ import Banner from '@/components/the-banner.vue';
 import Filters from '@/components/the-filters.vue';
 import CollectionBanner from '@/components/the-collection-banner.vue';
 import Products from '@/components/the-products.vue';
+import Header from '@/components/the-header.vue';
 </script>
 
 <template>
   <section>
+    <Header />
     <Banner />
     <article class="container">
       <CollectionBanner />
