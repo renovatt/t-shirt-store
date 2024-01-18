@@ -64,9 +64,9 @@ const storeCart = useCartStore()
           carrinho
         </RouterLink>
 
-        <button class="bg-700 p-2 px-4 text-base uppercase text-800">
+        <RouterLink to="/login" class="bg-700 p-2 px-4 text-base uppercase text-800">
           Checkout
-        </button>
+        </RouterLink>
       </div>
     </section>
   </section>

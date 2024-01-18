@@ -12,7 +12,9 @@ const openCart = ref(false)
 <template>
   <section class="relative flex gap-5 px-6">
     <Search class="flex h-8 w-8 md:hidden" />
-    <CircleUserRound class="h-8 w-8" />
+    <RouterLink to="/login">
+      <CircleUserRound class="h-8 w-8" />
+    </RouterLink>
     <ShoppingBag @mouseenter="openCart = !openCart" @click="openCart = !openCart" class="h-8 w-8 cursor-pointer" />
     <CartDropdown v-show="openCart" @close="openCart = !openCart" />
     <span

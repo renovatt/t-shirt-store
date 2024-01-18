@@ -5,6 +5,7 @@ import InputSearch from './header/input-search.vue';
 import CategoriesListMobile from './header/categories-list-mobile.vue';
 import { ref } from 'vue';
 import { Menu } from 'lucide-vue-next';
+import Logo from './the-logo.vue';
 
 const isOpen = ref(false)
 
@@ -17,9 +18,7 @@ const isOpen = ref(false)
       <section class="flex w-full flex-wrap items-center justify-between">
         <div class="flex items-center justify-center gap-4">
           <Menu class="flex h-8 w-8 md:hidden" @click="isOpen = !isOpen" />
-          <RouterLink to="/">
-            <div class="h-10 w-10 rounded-full bg-700 md:h-20 md:w-20"></div>
-          </RouterLink>
+          <Logo />
         </div>
         <InputSearch />
         <UserDataStore />

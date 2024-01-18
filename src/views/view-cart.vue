@@ -2,6 +2,7 @@
 import type { CartItem } from '@/@types';
 import CartCheckoutItem from '@/components/the-cart-checkout-item.vue';
 import CartCheckout from '@/components/the-cart-checkout.vue';
+import DefaultHeader from '@/components/the-default-header.vue';
 import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingCart } from 'lucide-vue-next';
 import { computed } from 'vue';
@@ -20,12 +21,9 @@ const formatCartItemTotalAsCurrency = (item: CartItem) => {
 </script>
 
 <template>
-  <section class="container flex flex-col items-center justify-start space-y-4 p-2 tracking-normal">
-    <header class="w-full rounded-lg border border-700/20 p-4">
-      <div class="h-20 w-20 rounded-full bg-700"></div>
-    </header>
-
-    <section class="flex w-full flex-col items-center justify-start space-y-4 p-2">
+  <section class="container flex flex-col items-center justify-start space-y-4 p-2 py-4 tracking-normal">
+    <DefaultHeader />
+    <section class="flex w-full flex-col items-center justify-start space-y-4">
       <header class="flex h-20 w-full items-center justify-between rounded-lg border border-700/20 p-2">
         <div class="flex items-center justify-between gap-4">
           <ShoppingCart class="h-8 w-8 text-700" />

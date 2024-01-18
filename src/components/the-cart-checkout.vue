@@ -55,9 +55,10 @@ const formatFifthAsCurrency = (value: number) => {
     </div>
 
     <div class="flex w-full flex-col items-center justify-center gap-2 space-y-2">
-      <button
-        class="w-full rounded-lg bg-600 p-4 text-xs font-bold uppercase text-800 transition-all hover:opacity-95">Finalizar
-        a compra</button>
+      <RouterLink to="/login"
+        class="w-full rounded-lg bg-600 p-4 text-center text-xs font-bold uppercase text-800 transition-all hover:opacity-95">
+        Finalizar
+        a compra</RouterLink>
       <RouterLink class="text-xs font-bold text-700 opacity-80 transition-all hover:underline" to="/">Continuar
         comprando
       </RouterLink>

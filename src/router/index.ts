@@ -17,6 +17,11 @@ const router = createRouter({
       path: '/cart',
       name: 'cart',
       component: lazyLoad('view-cart')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: lazyLoad('view-login')
     }
   ]
 })
