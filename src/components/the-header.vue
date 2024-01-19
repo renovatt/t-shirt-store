@@ -20,7 +20,9 @@ const isOpen = ref(false)
           <Menu class="flex h-8 w-8 md:hidden" @click="isOpen = !isOpen" />
           <Logo />
         </div>
-        <InputSearch />
+        <div class="hidden md:flex">
+          <InputSearch />
+        </div>
         <UserDataStore />
       </section>
       <CategoriesListMobile v-show="isOpen" @close="isOpen = !isOpen" />

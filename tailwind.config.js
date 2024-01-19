@@ -24,6 +24,16 @@ export default {
             transform: 'translateX(0px)',
           },
         },
+        openDown: {
+          from: {
+            opacity: '0',
+            transform: 'translateY(-20px)',
+          },
+          to: {
+            opacity: '1',
+            transform: 'translateY(0px)',
+          },
+        },
         zoom: {
           from: {
             opacity: '0',
@@ -37,6 +47,7 @@ export default {
       },
       animation: {
         open: 'open .3s ease-out',
+        openDown: 'openDown .3s ease-out',
         zoom: 'zoom .3s forwards',
       },
     },

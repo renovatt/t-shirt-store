@@ -8,9 +8,10 @@ const storeSearch = useSearchStore()
 watch(search, (newValue) => {
   storeSearch.setValue(newValue)
 })
+
 </script>
 
 <template>
   <input v-model="search" type="search" placeholder="Olá, o que você procura?"
-    class="hidden w-80 p-2 px-4 outline-none md:flex lg:w-[40rem]">
+    class="w-full bg-900 p-2 py-4 outline-none placeholder:text-700/80 md:bg-800 md:py-2 lg:w-[40rem]">
 </template>
