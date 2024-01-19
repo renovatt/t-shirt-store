@@ -23,13 +23,14 @@ export const useCartStore = defineStore("useCartStore", {
         if (existingProduct.quantity + quantity <= MAX_QUANTITY_PER_PRODUCT) {
           const updatedProduct = { ...existingProduct, quantity: existingProduct.quantity + quantity };
           this.cart.splice(existingProductIndex, 1, updatedProduct);
+          this.saveCartInLocalStorage();
           this.success('Adicionado ao carrinho');
         } else {
           this.error(`Maximo de ${MAX_QUANTITY_PER_PRODUCT} itens por produto`);
         }
       } else {
         if (quantity <= MAX_QUANTITY_PER_PRODUCT) {
-          this.setCart(product, quantity);
+          this.addItem(product, quantity);
         } else {
           this.error(`Maximo de ${MAX_QUANTITY_PER_PRODUCT} itens por produto`);
         }
@@ -38,13 +39,15 @@ export const useCartStore = defineStore("useCartStore", {
       this.selectedProduct = product;
       this.calcQuantityAndTotal();
     },
-    setCart(product: CartItem, quantity: number = 1) {
+    addItem(product: CartItem, quantity: number = 1) {
       this.cart = [...this.cart, { ...product, quantity }];
+      this.saveCartInLocalStorage();
       this.calcQuantityAndTotal();
       this.success('Adicionado ao carrinho');
     },
     removeItem(id: number) {
       this.cart = this.cart.filter((item) => item.id !== id);
+      this.removeItemInLocalStorage(id)
       this.calcQuantityAndTotal();
       this.success('Removido do carrinho');
     },
@@ -52,6 +55,7 @@ export const useCartStore = defineStore("useCartStore", {
       this.cart = [];
       this.quantity = 0;
       this.total = 0;
+      this.clearCartInLocalStorage();
       this.success('Itens removidos');
     },
     calcQuantityAndTotal() {
@@ -63,6 +67,30 @@ export const useCartStore = defineStore("useCartStore", {
     },
     error(message: string) {
       this.messages.error = message;
-    }
+    },
+    saveCartInLocalStorage() {
+      localStorage.setItem('@cart-store', JSON.stringify(this.cart));
+    },
+    getCartInLocalStorage() {
+      const cart = localStorage.getItem('@cart-store');
+      if (cart) {
+        try {
+          this.cart = JSON.parse(cart);
+          this.calcQuantityAndTotal();
+        } catch (error) {
+          this.error('Erro ao carregar carrinho');
+        }
+      }
+    },
+    removeItemInLocalStorage(id: number) {
+      const cart = localStorage.getItem('@cart-store');
+      if (cart) {
+        const newCart = JSON.parse(cart).filter((item: CartItem) => item.id !== id);
+        localStorage.setItem('@cart-store', JSON.stringify(newCart));
+      }
+    },
+    clearCartInLocalStorage() {
+      localStorage.removeItem('@cart-store');
+    },
   }
 });
