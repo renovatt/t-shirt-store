@@ -18,7 +18,7 @@ const openSearchInput = ref(false)
     <RouterLink to="/login">
       <CircleUserRound class="h-8 w-8" />
     </RouterLink>
-    <ShoppingBag @mouseenter="openCart = !openCart" @click="openCart = !openCart" class="h-8 w-8 cursor-pointer" />
+    <ShoppingBag @click="openCart = !openCart" class="h-8 w-8 cursor-pointer" />
     <CartDropdown v-show="openCart" @close="openCart = !openCart" />
     <span
       class="absolute -right-2 flex h-6 w-6 items-center justify-center overflow-hidden rounded-full bg-700 pl-[.15rem] text-xs text-800 md:-right-4">{{
