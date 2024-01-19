@@ -4,9 +4,10 @@ import { useCategoriesStore } from "@/stores/useCategoriesStore"
 import { useColorsStore } from "@/stores/useColorsStore"
 import { usePaginationStore } from "@/stores/usePagination"
 import { useSizesStore } from "@/stores/useSizesStore"
-import { ref, computed, onMounted } from "vue"
+import { ref, computed, onMounted, watch } from "vue"
 import { useItem } from "./useItem"
 import db from "../database/products.json"
+import { useSearchStore } from "@/stores/useSearch"
 
 export const useFilters = () => {
   const selectedProduct = ref<RootProducts>({} as RootProducts)
@@ -20,14 +21,17 @@ export const useFilters = () => {
   const storeColors = useColorsStore()
   const storePagination = usePaginationStore()
   const storeCategories = useCategoriesStore()
+  const storeSearch = useSearchStore()
 
   const filteredProducts = computed(() => {
     let filtered = products.value.filter(product => {
       const matchesCategory = storeCategories.category.slug !== "novidades" ? product.tags.includes(storeCategories.category.slug.trim()) : true;
       const matchesColor = storeColors.colors.length > 0 ? storeColors.colors.includes(product.color.slug) : true;
       const matchesSize = storeSizes.sizes.length > 0 ? storeSizes.sizes.includes(product.variation.attribute.slug) : true;
+      const matchesSearch = storeSearch.value.trim() !== '' ? product.tags.toLowerCase().includes(storeSearch.value.toLowerCase())
+        : true;
 
-      return matchesCategory && matchesColor && matchesSize;
+      return matchesCategory && matchesColor && matchesSize && matchesSearch;
     });
 
     if (storePagination.relevantFilters === 'a>z') {
@@ -41,6 +45,18 @@ export const useFilters = () => {
     return filtered.slice(
       storePagination.page * storePagination.itemsToShow,
       (storePagination.page + 1) * storePagination.itemsToShow);
+  });
+
+  watch(() => storeSearch.value, (newVal, oldVal) => {
+    if (newVal !== oldVal && newVal.trim() !== '') {
+      storeCategories.resetCategory();
+    }
+  });
+
+  watch(() => storeCategories.category, (newVal, oldVal) => {
+    if (newVal !== oldVal && newVal.slug !== 'novidades') {
+      storeSearch.resetValue();
+    }
   });
 
   onMounted(() => {

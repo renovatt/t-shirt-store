@@ -1,12 +1,12 @@
 <script setup lang="ts">
+import { useSearchStore } from '@/stores/useSearch';
 import { ref, watch } from 'vue';
 
 const search = ref('')
-const emits = defineEmits(['coth-tags'])
+const storeSearch = useSearchStore()
 
 watch(search, (newValue) => {
-  emits('coth-tags', newValue)
-  console.log(search.value)
+  storeSearch.setValue(newValue)
 })
 </script>
 
