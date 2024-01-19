@@ -4,6 +4,7 @@ import CartCheckoutItem from '@/components/the-cart-checkout-item.vue';
 import CartCheckout from '@/components/the-cart-checkout.vue';
 import DefaultHeader from '@/components/the-default-header.vue';
 import FadeTransition from '@/components/the-fade-transition.vue';
+import ImageSkeleton from '@/components/the-image-skeleton.vue';
 import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingCart } from 'lucide-vue-next';
 import { computed } from 'vue';
@@ -38,7 +39,7 @@ const formatCartItemTotalAsCurrency = (item: CartItem) => {
           <FadeTransition>
             <CartCheckoutItem v-for="item in storeCart.cart" :key="item.id">
               <template #image>
-                <img :src="item.image" :alt="item.name" class="block h-full w-full object-contain">
+                <ImageSkeleton :src="item.image" :alt="item.name" class="block h-full w-full object-contain" />
               </template>
 
               <template #price-color>

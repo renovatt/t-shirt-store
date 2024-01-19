@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vueuse/core": "^10.7.2",
     "lucide-vue-next": "^0.303.0",
     "pinia": "^2.1.7",
     "swiper": "^11.0.5",

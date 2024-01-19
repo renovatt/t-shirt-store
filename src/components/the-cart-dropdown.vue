@@ -3,6 +3,7 @@ import { Trash2 } from 'lucide-vue-next';
 import CartItem from './the-cart-item.vue';
 import { useCartStore } from '@/stores/useCartStore';
 import FadeTransition from './the-fade-transition.vue';
+import ImageSkeleton from './the-image-skeleton.vue';
 
 defineEmits(['close'])
 
@@ -19,7 +20,7 @@ const storeCart = useCartStore()
       <FadeTransition>
         <CartItem v-for="item in storeCart.cart" :key="item.id">
           <template #image>
-            <img :src="item.image" alt="image-product" class="block h-full w-full object-contain" />
+            <ImageSkeleton :src="item.image" :alt="item.name" class="block h-full w-full object-contain" />
           </template>
 
           <template #name>

@@ -5,6 +5,7 @@ import { useItem } from '@/composables/useItem';
 import { useCartStore } from '@/stores/useCartStore';
 import { computed, ref, toRefs, watch } from 'vue';
 import { filterInputsizes } from '@/utils/mocks/filterInputsizes'
+import ImageSkeleton from './the-image-skeleton.vue';
 
 const {
   item,
@@ -83,23 +84,23 @@ const saveItem = () => {
         <section
           class="relative flex w-full flex-col items-center justify-center gap-6 md:h-full md:w-1/2 md:flex-row-reverse">
           <figure class="flex h-full w-full items-center justify-center p-0 md:p-2">
-            <img v-if="selectedImage" :src="selectedImage" :alt="product.name" class="block md:max-w-full" />
+            <ImageSkeleton v-if="selectedImage" :src="selectedImage" :alt="product.name" class="block md:max-w-full" />
           </figure>
 
           <div class="flex w-full items-center justify-around gap-2 md:w-auto md:flex-col md:justify-center md:gap-10">
             <figure class="flex h-20 w-20 cursor-pointer items-center justify-center border  border-700/20 p-1">
-              <img @click="selectImage(productImageSrcOne)" v-if="productImageSrcOne" :src="productImageSrcOne"
+              <ImageSkeleton @click="selectImage(productImageSrcOne)" v-if="productImageSrcOne" :src="productImageSrcOne"
                 :alt="product.name" class="block md:max-w-full" />
             </figure>
 
             <figure class="flex h-20 w-20 cursor-pointer items-center justify-center border  border-700/20 p-1">
-              <img @click="selectImage(productImageSrcSecond)" v-if="productImageSrcSecond" :src="productImageSrcSecond"
-                :alt="product.name" class="block md:max-w-full" />
+              <ImageSkeleton @click="selectImage(productImageSrcSecond)" v-if="productImageSrcSecond"
+                :src="productImageSrcSecond" :alt="product.name" class="block md:max-w-full" />
             </figure>
 
             <figure class="flex h-20 w-20 cursor-pointer items-center justify-center border  border-700/20 p-1">
-              <img @click="selectImage(productImageSrcThird)" v-if="productImageSrcThird" :src="productImageSrcThird"
-                :alt="product.name" class="block md:max-w-full" />
+              <ImageSkeleton @click="selectImage(productImageSrcThird)" v-if="productImageSrcThird"
+                :src="productImageSrcThird" :alt="product.name" class="block md:max-w-full" />
             </figure>
           </div>
         </section>

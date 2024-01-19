@@ -5,6 +5,7 @@ import ClothModal from './the-cloth-modal.vue';
 import { ShoppingCart, Eye } from 'lucide-vue-next';
 import { useFilters } from '@/composables/useFilters';
 import FadeTransition from './the-fade-transition.vue';
+import ImageSkeleton from './the-image-skeleton.vue';
 
 const {
   view,
@@ -23,7 +24,7 @@ const {
     <FadeTransition>
       <ClothCard v-for="product in filteredProducts" :key="product.id">
         <template #image>
-          <img :src="product.images[0].src" :alt="product.name" class="max-w-full" />
+          <ImageSkeleton :src="product.images[0].src" :alt="product.name" />
         </template>
         <template #name>
           {{ product.name }}

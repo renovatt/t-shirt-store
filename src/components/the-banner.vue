@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
+import ImageSkeleton from './the-image-skeleton.vue';
 
 const banners = [
   // "https://cdn.dooca.store/292/files/banner-full-1600x450-camisa10dez-02.jpg?v=1703767653&webp=0",
@@ -21,7 +22,7 @@ const modules = [
     <swiper :autoplay="{ delay: 8000, disableOnInteraction: false }" :loop="true" :pagination="true" :modules="modules"
       class="border bg-700 p-2">
       <swiper-slide v-for="img in banners" :key="img">
-        <img :src="img" alt="banner-image">
+        <ImageSkeleton :src="img" alt="bannerimage" />
       </swiper-slide>
     </swiper>
   </div>
