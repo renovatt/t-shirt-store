@@ -1,0 +1,6890 @@
+[
+  {
+    "id": 5601812,
+    "name": "Camiseta Meu Primeiro Karaokê",
+    "slug": "camiseta-meu-primeiro-karaoke",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 8667,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta tecnologia,tecnologia",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/jhho4ylgvkfhaaac0qat3cqoj13zvijfhjnn.jpg?v=1704885843",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/skxpo35pyep5blugdurhde37zpfj9qyror4f.jpg?v=1704885845",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/9fsliap5rkeao2ftwukpmdtqzbhbeiqr6b1m.jpg?v=1704885847",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-meu-primeiro-karaoke/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-meu-primeiro-karaoke/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926483,
+      "name": "Camiseta Meu Primeiro Karaokê",
+      "slug": "camiseta-meu-primeiro-karaoke",
+      "gtin": null,
+      "product_id": 5601812,
+      "color_id": 6762,
+      "grid_id": "5601812-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/jhho4ylgvkfhaaac0qat3cqoj13zvijfhjnn.jpg?v=1704885843",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/skxpo35pyep5blugdurhde37zpfj9qyror4f.jpg?v=1704885845",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/9fsliap5rkeao2ftwukpmdtqzbhbeiqr6b1m.jpg?v=1704885847",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/jhho4ylgvkfhaaac0qat3cqoj13zvijfhjnn.jpg?v=1704885843",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-meu-primeiro-karaoke/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/jhho4ylgvkfhaaac0qat3cqoj13zvijfhjnn.jpg?v=1704885843",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601812-6762",
+    "release_date": null,
+    "created_at": "2024-01-10 08:24:17"
+  },
+  {
+    "id": 5601811,
+    "name": "Camiseta Feminina Meu Primeiro Karaokê",
+    "slug": "camiseta-feminina-meu-primeiro-karaoke",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 43055,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta tecnologia,tecnologia",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/wnjpxic8yenfegqhm8ibpc7rdtgbxovwfojk.jpg?v=1704885814",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ua3bsw2db9vq342sy1jvvh57ko01kbizyipd.jpg?v=1704885816",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ql4w5vcbf56nuofljxymix7eeonrkhijxxed.jpg?v=1704885817",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-feminina-meu-primeiro-karaoke/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-meu-primeiro-karaoke/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926475,
+      "name": "Camiseta Feminina Meu Primeiro Karaokê",
+      "slug": "camiseta-feminina-meu-primeiro-karaoke",
+      "gtin": null,
+      "product_id": 5601811,
+      "color_id": 6762,
+      "grid_id": "5601811-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/wnjpxic8yenfegqhm8ibpc7rdtgbxovwfojk.jpg?v=1704885814",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ua3bsw2db9vq342sy1jvvh57ko01kbizyipd.jpg?v=1704885816",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ql4w5vcbf56nuofljxymix7eeonrkhijxxed.jpg?v=1704885817",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/wnjpxic8yenfegqhm8ibpc7rdtgbxovwfojk.jpg?v=1704885814",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-meu-primeiro-karaoke/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/wnjpxic8yenfegqhm8ibpc7rdtgbxovwfojk.jpg?v=1704885814",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601811-6762",
+    "release_date": null,
+    "created_at": "2024-01-10 08:23:46"
+  },
+  {
+    "id": 5601810,
+    "name": "Camiseta Futebol De Rua",
+    "slug": "camiseta-futebol-de-rua",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 509132,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta esporte,esportes,esporte,futebol",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/y8jdbjbrhnskzlrnmuqg8li174hjzavj2ego.jpg?v=1704885781",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/k4efr0tescbcvaud6isqhabdrpjylaf0dqyy.jpg?v=1704885783",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/utzywjvnxa4aix21thgajj0ldxkvylqh1c4r.jpg?v=1704885784",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-futebol-de-rua/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-futebol-de-rua/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926470,
+      "name": "Camiseta Futebol De Rua",
+      "slug": "camiseta-futebol-de-rua",
+      "gtin": null,
+      "product_id": 5601810,
+      "color_id": 6765,
+      "grid_id": "5601810-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/y8jdbjbrhnskzlrnmuqg8li174hjzavj2ego.jpg?v=1704885781",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/k4efr0tescbcvaud6isqhabdrpjylaf0dqyy.jpg?v=1704885783",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/utzywjvnxa4aix21thgajj0ldxkvylqh1c4r.jpg?v=1704885784",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/y8jdbjbrhnskzlrnmuqg8li174hjzavj2ego.jpg?v=1704885781",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-futebol-de-rua/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/y8jdbjbrhnskzlrnmuqg8li174hjzavj2ego.jpg?v=1704885781",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601810-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:23:17"
+  },
+  {
+    "id": 5601809,
+    "name": "Camiseta Feminina Futebol De Rua",
+    "slug": "camiseta-feminina-futebol-de-rua",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 509144,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta esporte,esportes,esporte,futebol",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/m7bu9t5ko6o0w9col5qlfreupb8d2fevnlgb.jpg?v=1704885755",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/lzhrww0hyizyx3d91dtreta67mwjuiivt6pz.jpg?v=1704885757",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/offauqovlbkpfu59lpkclegtguipqafsw1nn.jpg?v=1704885758",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-feminina-futebol-de-rua/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-futebol-de-rua/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926462,
+      "name": "Camiseta Feminina Futebol De Rua",
+      "slug": "camiseta-feminina-futebol-de-rua",
+      "gtin": null,
+      "product_id": 5601809,
+      "color_id": 6765,
+      "grid_id": "5601809-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/m7bu9t5ko6o0w9col5qlfreupb8d2fevnlgb.jpg?v=1704885755",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/lzhrww0hyizyx3d91dtreta67mwjuiivt6pz.jpg?v=1704885757",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/offauqovlbkpfu59lpkclegtguipqafsw1nn.jpg?v=1704885758",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/m7bu9t5ko6o0w9col5qlfreupb8d2fevnlgb.jpg?v=1704885755",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-futebol-de-rua/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/m7bu9t5ko6o0w9col5qlfreupb8d2fevnlgb.jpg?v=1704885755",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601809-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:22:47"
+  },
+  {
+    "id": 5601808,
+    "name": "Camiseta Cavaleiros Do Apocalipse",
+    "slug": "camiseta-cavaleiros-do-apocalipse",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 330432,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta tematica,camiseta religiao,tematicas,religiao,tematica",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/7npblrinpdkyufwhzorswajibphx34qeswpx.jpg?v=1704885722",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/i26kyhp4tnq6dlngytgvqntltxeewcsoduxq.jpg?v=1704885723",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ndfsusgi0efxwm7hwnvymtlrpsbw9puxs9ac.jpg?v=1704885725",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-cavaleiros-do-apocalipse/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-cavaleiros-do-apocalipse/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926457,
+      "name": "Camiseta Cavaleiros Do Apocalipse",
+      "slug": "camiseta-cavaleiros-do-apocalipse",
+      "gtin": null,
+      "product_id": 5601808,
+      "color_id": 6762,
+      "grid_id": "5601808-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/7npblrinpdkyufwhzorswajibphx34qeswpx.jpg?v=1704885722",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/i26kyhp4tnq6dlngytgvqntltxeewcsoduxq.jpg?v=1704885723",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ndfsusgi0efxwm7hwnvymtlrpsbw9puxs9ac.jpg?v=1704885725",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/7npblrinpdkyufwhzorswajibphx34qeswpx.jpg?v=1704885722",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-cavaleiros-do-apocalipse/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/7npblrinpdkyufwhzorswajibphx34qeswpx.jpg?v=1704885722",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601808-6762",
+    "release_date": null,
+    "created_at": "2024-01-10 08:22:14"
+  },
+  {
+    "id": 5601807,
+    "name": "Camiseta Feminina Cavaleiros Do Apocalipse",
+    "slug": "camiseta-feminina-cavaleiros-do-apocalipse",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 330433,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta tematica,camiseta religiao,tematica,tematicas,religiao",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mjhgzytndim8kvsvme3xsdh6gnjwhrl6xtpi.jpg?v=1704885698",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/clkgkafwev7p5rg8osps4jptnwcosbl59pvl.jpg?v=1704885700",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/archunr1sawsifw1p9bqgs5zpzhass98pcv5.jpg?v=1704885701",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-feminina-cavaleiros-do-apocalipse/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-cavaleiros-do-apocalipse/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926449,
+      "name": "Camiseta Feminina Cavaleiros Do Apocalipse",
+      "slug": "camiseta-feminina-cavaleiros-do-apocalipse",
+      "gtin": null,
+      "product_id": 5601807,
+      "color_id": 6762,
+      "grid_id": "5601807-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/mjhgzytndim8kvsvme3xsdh6gnjwhrl6xtpi.jpg?v=1704885698",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/clkgkafwev7p5rg8osps4jptnwcosbl59pvl.jpg?v=1704885700",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/archunr1sawsifw1p9bqgs5zpzhass98pcv5.jpg?v=1704885701",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mjhgzytndim8kvsvme3xsdh6gnjwhrl6xtpi.jpg?v=1704885698",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-cavaleiros-do-apocalipse/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/mjhgzytndim8kvsvme3xsdh6gnjwhrl6xtpi.jpg?v=1704885698",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601807-6762",
+    "release_date": null,
+    "created_at": "2024-01-10 08:21:50"
+  },
+  {
+    "id": 5601806,
+    "name": "Camiseta Three Wise Skulls",
+    "slug": "camiseta-three-wise-skulls",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 315751,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta caveira,camiseta skull,caveiras,skulls,caveira,skull",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/lccyxg4iwrcndtqhw0x67eb88brpyarp1zjr.jpg?v=1704885666",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/cmnustlqabxrn9ljkukenvhd2tkq1ln4dpkb.jpg?v=1704885667",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/sccbawag4ytzh3bejphzospimaodm4w13hxg.jpg?v=1704885668",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-three-wise-skulls/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-three-wise-skulls/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926444,
+      "name": "Camiseta Three Wise Skulls",
+      "slug": "camiseta-three-wise-skulls",
+      "gtin": null,
+      "product_id": 5601806,
+      "color_id": 6765,
+      "grid_id": "5601806-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/lccyxg4iwrcndtqhw0x67eb88brpyarp1zjr.jpg?v=1704885666",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/cmnustlqabxrn9ljkukenvhd2tkq1ln4dpkb.jpg?v=1704885667",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/sccbawag4ytzh3bejphzospimaodm4w13hxg.jpg?v=1704885668",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/lccyxg4iwrcndtqhw0x67eb88brpyarp1zjr.jpg?v=1704885666",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-three-wise-skulls/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/lccyxg4iwrcndtqhw0x67eb88brpyarp1zjr.jpg?v=1704885666",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601806-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:21:17"
+  },
+  {
+    "id": 5601805,
+    "name": "Camiseta Feminina Three Wise Skulls",
+    "slug": "camiseta-feminina-three-wise-skulls",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 315752,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta skull,camisetas caveira,skulls,skull,caveiras,caveira",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/d4q3q6gb48prw2mddlir7zwc7roppb7mffcn.jpg?v=1704885640",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/h4ybr3kr1g7kifa3vjccfsdeuhbuzzgbxwxs.jpg?v=1704885641",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/uspjgglqolxhi7g5ioy3tj4w7vk8juqkmrku.jpg?v=1704885643",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-feminina-three-wise-skulls/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-three-wise-skulls/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926436,
+      "name": "Camiseta Feminina Three Wise Skulls",
+      "slug": "camiseta-feminina-three-wise-skulls",
+      "gtin": null,
+      "product_id": 5601805,
+      "color_id": 6765,
+      "grid_id": "5601805-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/d4q3q6gb48prw2mddlir7zwc7roppb7mffcn.jpg?v=1704885640",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/h4ybr3kr1g7kifa3vjccfsdeuhbuzzgbxwxs.jpg?v=1704885641",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/uspjgglqolxhi7g5ioy3tj4w7vk8juqkmrku.jpg?v=1704885643",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/d4q3q6gb48prw2mddlir7zwc7roppb7mffcn.jpg?v=1704885640",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-three-wise-skulls/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/d4q3q6gb48prw2mddlir7zwc7roppb7mffcn.jpg?v=1704885640",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601805-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:20:48"
+  },
+  {
+    "id": 5601803,
+    "name": "Camiseta PI",
+    "slug": "camiseta-pi",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 86493,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta ciencia,ciencias,ciencia,matematica,camiseta ciencias",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/0xrjupyso8et9dqlgr54najf7n0zrff5ib1k.jpg?v=1704885609",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ywfkycgauavidt7rddfgtajnvv9v66sywipf.jpg?v=1704885611",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/nuzgp985rwgziehcdbzjruirv5ju1f96mhdn.jpg?v=1704885612",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-pi/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-pi/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926431,
+      "name": "Camiseta PI",
+      "slug": "camiseta-pi",
+      "gtin": null,
+      "product_id": 5601803,
+      "color_id": 6765,
+      "grid_id": "5601803-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/0xrjupyso8et9dqlgr54najf7n0zrff5ib1k.jpg?v=1704885609",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ywfkycgauavidt7rddfgtajnvv9v66sywipf.jpg?v=1704885611",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/nuzgp985rwgziehcdbzjruirv5ju1f96mhdn.jpg?v=1704885612",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/0xrjupyso8et9dqlgr54najf7n0zrff5ib1k.jpg?v=1704885609",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-pi/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/0xrjupyso8et9dqlgr54najf7n0zrff5ib1k.jpg?v=1704885609",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601803-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:20:21"
+  },
+  {
+    "id": 5601802,
+    "name": "Camiseta Feminina PI",
+    "slug": "camiseta-feminina-pi",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 86495,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta ciencia,ciencias,camiseta ciencias,ciencia,matematica",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/4to3knwlbahtssvnoppjpftydzyvwlcaqij6.jpg?v=1704885568",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gcujbbkmegnmqe8l1qm7e4tcyt4w6pszgxmp.jpg?v=1704885570",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/xsr5idopvdzr3idevu50bpsczvvpty81wpd0.jpg?v=1704885571",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-feminina-pi/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-pi/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926422,
+      "name": "Camiseta Feminina PI",
+      "slug": "camiseta-feminina-pi",
+      "gtin": null,
+      "product_id": 5601802,
+      "color_id": 6765,
+      "grid_id": "5601802-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/4to3knwlbahtssvnoppjpftydzyvwlcaqij6.jpg?v=1704885568",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gcujbbkmegnmqe8l1qm7e4tcyt4w6pszgxmp.jpg?v=1704885570",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/xsr5idopvdzr3idevu50bpsczvvpty81wpd0.jpg?v=1704885571",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/4to3knwlbahtssvnoppjpftydzyvwlcaqij6.jpg?v=1704885568",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-pi/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/4to3knwlbahtssvnoppjpftydzyvwlcaqij6.jpg?v=1704885568",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601802-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:19:37"
+  },
+  {
+    "id": 5601801,
+    "name": "Camiseta Coffee Manual",
+    "slug": "camiseta-coffee-manual",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 65975,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta bebida,camiseta cafe,cafe,bebida,bebidas",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yxtcy1z7s8pszignsqzvkekxh5r4m9egmr3m.jpg?v=1704885526",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/5hln3qqvpkojwkbnjdtafqprpjhj7n0rkvgn.jpg?v=1704885527",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/2gbwhkhkjhonplupdflwmzcmrin3mjsh5plg.jpg?v=1704885529",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-coffee-manual/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-coffee-manual/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926414,
+      "name": "Camiseta Coffee Manual",
+      "slug": "camiseta-coffee-manual",
+      "gtin": null,
+      "product_id": 5601801,
+      "color_id": 6762,
+      "grid_id": "5601801-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/yxtcy1z7s8pszignsqzvkekxh5r4m9egmr3m.jpg?v=1704885526",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/5hln3qqvpkojwkbnjdtafqprpjhj7n0rkvgn.jpg?v=1704885527",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/2gbwhkhkjhonplupdflwmzcmrin3mjsh5plg.jpg?v=1704885529",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/yxtcy1z7s8pszignsqzvkekxh5r4m9egmr3m.jpg?v=1704885526",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-coffee-manual/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/yxtcy1z7s8pszignsqzvkekxh5r4m9egmr3m.jpg?v=1704885526",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601801-6762",
+    "release_date": null,
+    "created_at": "2024-01-10 08:18:58"
+  },
+  {
+    "id": 5601800,
+    "name": "Camiseta Feminina Coffee Manual",
+    "slug": "camiseta-feminina-coffee-manual",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 65981,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta cafe,camiseta bebida,bebida,bebidas,cafe",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/me1hakruynnb1jyw5euf6ltuqqve0ly6wzns.jpg?v=1704885495",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/9tqevkh77ih8cxrmcuy9zv0nuf981jzlwirr.jpg?v=1704885496",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/vsu2yo1514gsccfabb41iloj6h6nxlzpeecp.jpg?v=1704885497",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-feminina-coffee-manual/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-coffee-manual/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926406,
+      "name": "Camiseta Feminina Coffee Manual",
+      "slug": "camiseta-feminina-coffee-manual",
+      "gtin": null,
+      "product_id": 5601800,
+      "color_id": 6762,
+      "grid_id": "5601800-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/me1hakruynnb1jyw5euf6ltuqqve0ly6wzns.jpg?v=1704885495",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/9tqevkh77ih8cxrmcuy9zv0nuf981jzlwirr.jpg?v=1704885496",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/vsu2yo1514gsccfabb41iloj6h6nxlzpeecp.jpg?v=1704885497",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/me1hakruynnb1jyw5euf6ltuqqve0ly6wzns.jpg?v=1704885495",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-coffee-manual/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/me1hakruynnb1jyw5euf6ltuqqve0ly6wzns.jpg?v=1704885495",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601800-6762",
+    "release_date": null,
+    "created_at": "2024-01-10 08:18:24"
+  },
+  {
+    "id": 5601799,
+    "name": "Camiseta Keep Calm And Click On",
+    "slug": "camiseta-keep-calm-and-click-on",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 181453,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta fotografia,fotografia,fotografo",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/7vkic28p7sllllnsmuja12mwz2c6bwxarkil.jpg?v=1704885426",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/koqmmpo0s7eslizuualdyx62p2w9yk7jvnuf.jpg?v=1704885428",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qa6ull3oopbqgh85chq7e7exrpbwq78prcma.jpg?v=1704885430",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-keep-calm-and-click-on/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-keep-calm-and-click-on/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926401,
+      "name": "Camiseta Keep Calm And Click On",
+      "slug": "camiseta-keep-calm-and-click-on",
+      "gtin": null,
+      "product_id": 5601799,
+      "color_id": 6765,
+      "grid_id": "5601799-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/7vkic28p7sllllnsmuja12mwz2c6bwxarkil.jpg?v=1704885426",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/koqmmpo0s7eslizuualdyx62p2w9yk7jvnuf.jpg?v=1704885428",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qa6ull3oopbqgh85chq7e7exrpbwq78prcma.jpg?v=1704885430",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/7vkic28p7sllllnsmuja12mwz2c6bwxarkil.jpg?v=1704885426",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-keep-calm-and-click-on/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/7vkic28p7sllllnsmuja12mwz2c6bwxarkil.jpg?v=1704885426",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601799-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:17:23"
+  },
+  {
+    "id": 5601798,
+    "name": "Camiseta Feminina Keep Calm And Click On",
+    "slug": "camiseta-feminina-keep-calm-and-click-on",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 181454,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta fotografia,fotografia,fotografo",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/juxdazespzmhjeoh9d3ccs87125krjf3i8uf.jpg?v=1704884873",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mzu1rjw7gxx72rb4j4yo2tghfdjbyqmnbsuq.jpg?v=1704884875",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qfmvpsixbzuphqdplqcbgkdvygy5xplfiqhv.jpg?v=1704884876",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-feminina-keep-calm-and-click-on/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-keep-calm-and-click-on/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16926393,
+      "name": "Camiseta Feminina Keep Calm And Click On",
+      "slug": "camiseta-feminina-keep-calm-and-click-on",
+      "gtin": null,
+      "product_id": 5601798,
+      "color_id": 6765,
+      "grid_id": "5601798-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/juxdazespzmhjeoh9d3ccs87125krjf3i8uf.jpg?v=1704884873",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/mzu1rjw7gxx72rb4j4yo2tghfdjbyqmnbsuq.jpg?v=1704884875",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qfmvpsixbzuphqdplqcbgkdvygy5xplfiqhv.jpg?v=1704884876",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/juxdazespzmhjeoh9d3ccs87125krjf3i8uf.jpg?v=1704884873",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-keep-calm-and-click-on/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/juxdazespzmhjeoh9d3ccs87125krjf3i8uf.jpg?v=1704884873",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5601798-6765",
+    "release_date": null,
+    "created_at": "2024-01-10 08:08:05"
+  },
+  {
+    "id": 5524168,
+    "name": "Camiseta Vem Meteoro",
+    "slug": "camiseta-vem-meteoro",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 74690,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta humor,engracada,humor",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/xma1gttyuzbcrjuzpmwbsxhjrayfnes7f23o.jpg?v=1703007800",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/wzha2a8ztbsteosvqrhiof5ra8coss4kosz2.jpg?v=1703007802",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ngxsf2ratu2sg85dq7qpacf1c9mmuu2pe6mb.jpg?v=1703007803",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-vem-meteoro/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-vem-meteoro/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16762679,
+      "name": "Camiseta Vem Meteoro",
+      "slug": "camiseta-vem-meteoro",
+      "gtin": null,
+      "product_id": 5524168,
+      "color_id": 6762,
+      "grid_id": "5524168-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/xma1gttyuzbcrjuzpmwbsxhjrayfnes7f23o.jpg?v=1703007800",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/wzha2a8ztbsteosvqrhiof5ra8coss4kosz2.jpg?v=1703007802",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ngxsf2ratu2sg85dq7qpacf1c9mmuu2pe6mb.jpg?v=1703007803",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/xma1gttyuzbcrjuzpmwbsxhjrayfnes7f23o.jpg?v=1703007800",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-vem-meteoro/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/xma1gttyuzbcrjuzpmwbsxhjrayfnes7f23o.jpg?v=1703007800",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5524168-6762",
+    "release_date": null,
+    "created_at": "2023-12-19 14:43:34"
+  },
+  {
+    "id": 5524165,
+    "name": "Camiseta Feminina Vem Meteoro",
+    "slug": "camiseta-feminina-vem-meteoro",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 74692,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta humor,humor,engracada",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qzj8casch3m1i9n3mt3xgcyvqrbqwdur1pfy.jpg?v=1703007769",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/xpbddlgyhldla9vy08e1hzd3d0fkm5itbmid.jpg?v=1703007771",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/z5uocxkfprizhjq3y9xaezddzlafst16xnij.jpg?v=1703007772",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-feminina-vem-meteoro/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-vem-meteoro/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16762664,
+      "name": "Camiseta Feminina Vem Meteoro",
+      "slug": "camiseta-feminina-vem-meteoro",
+      "gtin": null,
+      "product_id": 5524165,
+      "color_id": 6762,
+      "grid_id": "5524165-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/qzj8casch3m1i9n3mt3xgcyvqrbqwdur1pfy.jpg?v=1703007769",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/xpbddlgyhldla9vy08e1hzd3d0fkm5itbmid.jpg?v=1703007771",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/z5uocxkfprizhjq3y9xaezddzlafst16xnij.jpg?v=1703007772",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/qzj8casch3m1i9n3mt3xgcyvqrbqwdur1pfy.jpg?v=1703007769",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-vem-meteoro/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/qzj8casch3m1i9n3mt3xgcyvqrbqwdur1pfy.jpg?v=1703007769",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5524165-6762",
+    "release_date": null,
+    "created_at": "2023-12-19 14:43:03"
+  },
+  {
+    "id": 5524146,
+    "name": "Camiseta I Love Typography",
+    "slug": "camiseta-i-love-typhography",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 517376,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta design,designer,tipografia",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography.jpg?v=1703014456",
+        "alt": "",
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography-estampa.jpg?v=1703014467",
+        "alt": "",
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ntbg8w2znrmapgagkagpln2c0sf355vi5hdc.jpg?v=1703007632",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6764,
+      "name": "Azul Marinho",
+      "slug": "azul-marinho",
+      "image": null,
+      "hexadecimal": "#000958",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6764,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": "/camiseta-i-love-typhography/azul-marinho",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-i-love-typhography/azul-marinho",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16762623,
+      "name": "Camiseta I Love Typography",
+      "slug": "camiseta-i-love-typhography",
+      "gtin": null,
+      "product_id": 5524146,
+      "color_id": 6764,
+      "grid_id": "5524146-6764",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography.jpg?v=1703014456",
+          "alt": "",
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography-estampa.jpg?v=1703014467",
+          "alt": "",
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ntbg8w2znrmapgagkagpln2c0sf355vi5hdc.jpg?v=1703007632",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography.jpg?v=1703014456",
+        "alt": "",
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-i-love-typhography/azul-marinho",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography.jpg?v=1703014456",
+      "alt": "",
+      "position": null
+    },
+    "grid_id": "5524146-6764",
+    "release_date": null,
+    "created_at": "2023-12-19 14:40:44"
+  },
+  {
+    "id": 5524139,
+    "name": "Camiseta Feminina I Love Typography",
+    "slug": "camiseta-feminina-i-love-typhography",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 518324,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta design,designer,tipografia",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-feminina-i-love-typography.jpg?v=1703014480",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography-estampa-1.jpg?v=1703014481",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/eqsoldewq4rps5zzbs60i4qbrtj4d63h8w0v.jpg?v=1703007603",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6764,
+      "name": "Azul Marinho",
+      "slug": "azul-marinho",
+      "image": null,
+      "hexadecimal": "#000958",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6764,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": "/camiseta-feminina-i-love-typhography/azul-marinho",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-i-love-typhography/azul-marinho",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16762604,
+      "name": "Camiseta Feminina I Love Typography",
+      "slug": "camiseta-feminina-i-love-typhography",
+      "gtin": null,
+      "product_id": 5524139,
+      "color_id": 6764,
+      "grid_id": "5524139-6764",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-feminina-i-love-typography.jpg?v=1703014480",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/camiseta-i-love-typography-estampa-1.jpg?v=1703014481",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/eqsoldewq4rps5zzbs60i4qbrtj4d63h8w0v.jpg?v=1703007603",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/camiseta-feminina-i-love-typography.jpg?v=1703014480",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6764,
+        "name": "Azul Marinho",
+        "slug": "azul-marinho",
+        "image": null,
+        "hexadecimal": "#000958",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-i-love-typhography/azul-marinho",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/camiseta-feminina-i-love-typography.jpg?v=1703014480",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5524139-6764",
+    "release_date": null,
+    "created_at": "2023-12-19 14:40:17"
+  },
+  {
+    "id": 5524134,
+    "name": "Camiseta Day Off",
+    "slug": "camiseta-day-off-1",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 565102,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta frase,frases",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/sxgm2idjggotsveoeilliozkgablh9tgizfk.jpg?v=1703007571",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/tqizt36m037x4fvh9ewrtggen77hfaxvgy8w.jpg?v=1703007572",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/gfbdzgufoesoto5d64v6qsnykz9vo2syhcpn.jpg?v=1703007576",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-day-off-1/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-day-off-1/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16762572,
+      "name": "Camiseta Day Off",
+      "slug": "camiseta-day-off-1",
+      "gtin": null,
+      "product_id": 5524134,
+      "color_id": 6762,
+      "grid_id": "5524134-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6130,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/sxgm2idjggotsveoeilliozkgablh9tgizfk.jpg?v=1703007571",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/tqizt36m037x4fvh9ewrtggen77hfaxvgy8w.jpg?v=1703007572",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/gfbdzgufoesoto5d64v6qsnykz9vo2syhcpn.jpg?v=1703007576",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/sxgm2idjggotsveoeilliozkgablh9tgizfk.jpg?v=1703007571",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6130,
+        "name": "3G",
+        "slug": "3g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-day-off-1/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/sxgm2idjggotsveoeilliozkgablh9tgizfk.jpg?v=1703007571",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5524134-6762",
+    "release_date": null,
+    "created_at": "2023-12-19 14:39:43"
+  },
+  {
+    "id": 5524130,
+    "name": "Camiseta Feminina Day Off",
+    "slug": "camiseta-feminina-day-off-1",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 565103,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta frase,frases",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mfm6pf90tp6mzvta3yjij2pjr1rs2oqajmw4.jpg?v=1703007551",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/i2ix8m4olqqwks20tzyabvdoftrwfi0beb8l.jpg?v=1703007552",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mhamdjlslbriverbdchzt6pfbztiyhqgdmgx.jpg?v=1703007553",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-feminina-day-off-1/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-day-off-1/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16762551,
+      "name": "Camiseta Feminina Day Off",
+      "slug": "camiseta-feminina-day-off-1",
+      "gtin": null,
+      "product_id": 5524130,
+      "color_id": 6762,
+      "grid_id": "5524130-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/mfm6pf90tp6mzvta3yjij2pjr1rs2oqajmw4.jpg?v=1703007551",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/i2ix8m4olqqwks20tzyabvdoftrwfi0beb8l.jpg?v=1703007552",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/mhamdjlslbriverbdchzt6pfbztiyhqgdmgx.jpg?v=1703007553",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/mfm6pf90tp6mzvta3yjij2pjr1rs2oqajmw4.jpg?v=1703007551",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-day-off-1/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/mfm6pf90tp6mzvta3yjij2pjr1rs2oqajmw4.jpg?v=1703007551",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5524130-6762",
+    "release_date": null,
+    "created_at": "2023-12-19 14:39:20"
+  },
+  {
+    "id": 5515116,
+    "name": "Camiseta Sistema Solar",
+    "slug": "camiseta-sistema-solar",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 86493,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta ciencias,ciencia,ciencias,astronomia",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ma7fx8cqud6bjw5jycdmjpy6ru6vcfoiccey.jpg?v=1702898213",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/5ohy57iiwxbmmpkt4ixgd8ydb9nbamxxw1ts.jpg?v=1702898214",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/njrpaq2nonnrgirxyzgfciushhdudyuthtxt.jpg?v=1702898216",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-sistema-solar/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-sistema-solar/preto",
+    "balance": 19,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16743591,
+      "name": "Camiseta Sistema Solar",
+      "slug": "camiseta-sistema-solar",
+      "gtin": null,
+      "product_id": 5515116,
+      "color_id": 6765,
+      "grid_id": "5515116-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ma7fx8cqud6bjw5jycdmjpy6ru6vcfoiccey.jpg?v=1702898213",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/5ohy57iiwxbmmpkt4ixgd8ydb9nbamxxw1ts.jpg?v=1702898214",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/njrpaq2nonnrgirxyzgfciushhdudyuthtxt.jpg?v=1702898216",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ma7fx8cqud6bjw5jycdmjpy6ru6vcfoiccey.jpg?v=1702898213",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 19,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-sistema-solar/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/ma7fx8cqud6bjw5jycdmjpy6ru6vcfoiccey.jpg?v=1702898213",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5515116-6765",
+    "release_date": null,
+    "created_at": "2023-12-18 08:17:06"
+  },
+  {
+    "id": 5515114,
+    "name": "Camiseta Feminina Sistema Solar",
+    "slug": "camiseta-feminina-sistema-solar",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 86495,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta ciencias,ciencia,ciencias,astronomia",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8xoilfsk87vgb7wsyhhu81bun2x3hk5p2pja.jpg?v=1702898182",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/s1hsraooobvcnndwb6ruf3kq63rvcw6arxog.jpg?v=1702898184",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/wwgr6zd7yg83msza8swbgokp7ndqflzewfss.jpg?v=1702898185",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6765,
+      "name": "Preto",
+      "slug": "preto",
+      "image": null,
+      "hexadecimal": "#000000",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6765,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": "/camiseta-feminina-sistema-solar/preto",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-sistema-solar/preto",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16743582,
+      "name": "Camiseta Feminina Sistema Solar",
+      "slug": "camiseta-feminina-sistema-solar",
+      "gtin": null,
+      "product_id": 5515114,
+      "color_id": 6765,
+      "grid_id": "5515114-6765",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8xoilfsk87vgb7wsyhhu81bun2x3hk5p2pja.jpg?v=1702898182",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/s1hsraooobvcnndwb6ruf3kq63rvcw6arxog.jpg?v=1702898184",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/wwgr6zd7yg83msza8swbgokp7ndqflzewfss.jpg?v=1702898185",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8xoilfsk87vgb7wsyhhu81bun2x3hk5p2pja.jpg?v=1702898182",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6765,
+        "name": "Preto",
+        "slug": "preto",
+        "image": null,
+        "hexadecimal": "#000000",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-sistema-solar/preto",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/8xoilfsk87vgb7wsyhhu81bun2x3hk5p2pja.jpg?v=1702898182",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5515114-6765",
+    "release_date": null,
+    "created_at": "2023-12-18 08:16:32"
+  },
+  {
+    "id": 5515113,
+    "name": "Camiseta Breaking Code",
+    "slug": "camiseta-breaking-code",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 457678,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta informatica,ti,qa tester,desenvolvedor,informatica,programacao,programador",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/w4evu8l6hmbd2kgtkbha7ipvap5ib7nxsk28.jpg?v=1702898127",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/chqxxam2aoqo78bdboc3wgiosoxh9zuex31s.jpg?v=1702898128",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/8thjzuyx5oquzewe1pnctuzhvhsxw2kn0uye.jpg?v=1702898129",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-breaking-code/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-breaking-code/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16743576,
+      "name": "Camiseta Breaking Code",
+      "slug": "camiseta-breaking-code",
+      "gtin": null,
+      "product_id": 5515113,
+      "color_id": 6762,
+      "grid_id": "5515113-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6131,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/w4evu8l6hmbd2kgtkbha7ipvap5ib7nxsk28.jpg?v=1702898127",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/chqxxam2aoqo78bdboc3wgiosoxh9zuex31s.jpg?v=1702898128",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/8thjzuyx5oquzewe1pnctuzhvhsxw2kn0uye.jpg?v=1702898129",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/w4evu8l6hmbd2kgtkbha7ipvap5ib7nxsk28.jpg?v=1702898127",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6131,
+        "name": "4G",
+        "slug": "4g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-breaking-code/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/w4evu8l6hmbd2kgtkbha7ipvap5ib7nxsk28.jpg?v=1702898127",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5515113-6762",
+    "release_date": null,
+    "created_at": "2023-12-18 08:15:38"
+  },
+  {
+    "id": 5515111,
+    "name": "Camiseta Feminina Breaking Code",
+    "slug": "camiseta-feminina-breaking-code",
+    "payments": {
+      "paypal": {
+        "name": "Paypal",
+        "method": "paypal",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "creditcard": {
+        "name": "Cartão de crédito",
+        "method": "creditcard",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 2,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 39.95
+        }
+      },
+      "app": {
+        "name": "Aplicativo PicPay",
+        "method": "app",
+        "discount": 0,
+        "parcels": 1,
+        "total": 79.9,
+        "parcel_price": 79.9,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "1",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 79.9,
+          "parcel_price": 79.9
+        }
+      },
+      "billet": {
+        "name": "Boleto bancário",
+        "method": "billet",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      },
+      "pix": {
+        "name": "Pix",
+        "method": "pix",
+        "discount": 0,
+        "parcels": 1,
+        "total": 77.5,
+        "parcel_price": 77.5,
+        "has_interest": false,
+        "max_installment": {
+          "markup": "0.97",
+          "parcel": 1,
+          "discount": 0,
+          "interest": 0,
+          "total": 77.5,
+          "parcel_price": 77.5
+        }
+      }
+    },
+    "gtin": null,
+    "mpn": null,
+    "additional_shipping_time": 1,
+    "external_id": null,
+    "category_default_id": 457681,
+    "hotsite_id": null,
+    "description": null,
+    "short_description": "<p><strong><strong># EVITE TROCA, CONFIRA A NOSSA TABELA DE MEDIDAS ANTES DE ESCOLHER O TAMANHO DA CAMISETA #</strong></strong></p>",
+    "relevance": 1,
+    "tags": "camiseta informatica,ti,informatica,qa tester,desenvolvedor,programador,programacao",
+    "min_quantity": null,
+    "max_quantity": null,
+    "sell_in_kit_only": null,
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "kit": null,
+    "kit_markup": 1,
+    "is_virtual": null,
+    "is_pre_sale": null,
+    "images": [
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hjpibvgjhu562cs1dodxtzu9lgxzc8ghs0fm.jpg?v=1702898083",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ecds6ulmiqtvu8gn0lrhovoycqkllqatledo.jpg?v=1702898085",
+        "alt": null,
+        "position": null
+      },
+      {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/ybk1argvg5lfo0p8f7uknynkhetipj66ws9k.jpg?v=1702898086",
+        "alt": null,
+        "position": null
+      }
+    ],
+    "video": null,
+    "weight": 0.187,
+    "depth": 1,
+    "width": 1,
+    "height": 1,
+    "is_gift": null,
+    "selling_out_of_stock": null,
+    "additional_time_out_of_stock": null,
+    "price": 79.9,
+    "price_compare": 0,
+    "discount": 0,
+    "has_price_range": null,
+    "min_price_range": 79.9,
+    "max_price_range": 79.9,
+    "billet_discount": null,
+    "payments_reason": null,
+    "brand": {
+      "id": 3835,
+      "url": "/studio-geek",
+      "name": "Studio Geek",
+      "slug": "studio-geek",
+      "position": null,
+      "description": null,
+      "hotsite_id": null,
+      "active": null,
+      "short_description": null,
+      "image": null,
+      "banner": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "created_at": null
+    },
+    "category": null,
+    "categories": [],
+    "color": {
+      "id": 6762,
+      "name": "Off White",
+      "slug": "off-white",
+      "image": null,
+      "hexadecimal": "#fafafa",
+      "position": null,
+      "url": null,
+      "product_images": null
+    },
+    "color_id": 6762,
+    "attribute": [],
+    "attribute_secondary": [],
+    "features": [],
+    "components": [],
+    "component_groups": [],
+    "colors": [
+      {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": "/camiseta-feminina-breaking-code/off-white",
+        "product_images": null
+      }
+    ],
+    "url": "/camiseta-feminina-breaking-code/off-white",
+    "balance": 20,
+    "variations": [],
+    "all_variations_in_release_date": false,
+    "variation": {
+      "id": 16743568,
+      "name": "Camiseta Feminina Breaking Code",
+      "slug": "camiseta-feminina-breaking-code",
+      "gtin": null,
+      "product_id": 5515111,
+      "color_id": 6762,
+      "grid_id": "5515111-6762",
+      "color_secondary_id": null,
+      "attribute_value_id": 6129,
+      "attribute_value_secondary_id": null,
+      "mpn": null,
+      "additional_shipping_time": 1,
+      "external_id": null,
+      "min_quantity": null,
+      "max_quantity": null,
+      "reference": null,
+      "is_sell_in_kit_only": null,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_keywords": null,
+      "images": [
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/hjpibvgjhu562cs1dodxtzu9lgxzc8ghs0fm.jpg?v=1702898083",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ecds6ulmiqtvu8gn0lrhovoycqkllqatledo.jpg?v=1702898085",
+          "alt": null,
+          "position": null
+        },
+        {
+          "id": null,
+          "src": "https://cdn.dooca.store/292/products/ybk1argvg5lfo0p8f7uknynkhetipj66ws9k.jpg?v=1702898086",
+          "alt": null,
+          "position": null
+        }
+      ],
+      "image": {
+        "id": null,
+        "src": "https://cdn.dooca.store/292/products/hjpibvgjhu562cs1dodxtzu9lgxzc8ghs0fm.jpg?v=1702898083",
+        "alt": null,
+        "position": null
+      },
+      "video": null,
+      "additional_time_out_of_stock": null,
+      "balance": 20,
+      "price": "79.90",
+      "has_price_range": null,
+      "min_price_range": 79.9,
+      "max_price_range": 79.9,
+      "price_compare": null,
+      "color": {
+        "id": 6762,
+        "name": "Off White",
+        "slug": "off-white",
+        "image": null,
+        "hexadecimal": "#fafafa",
+        "position": null,
+        "url": null,
+        "product_images": null
+      },
+      "attribute": {
+        "id": 6129,
+        "name": "2G",
+        "slug": "2g",
+        "attribute_id": null,
+        "attribute_name": null,
+        "position": null,
+        "active": null
+      },
+      "attribute_secondary": null,
+      "url": "/camiseta-feminina-breaking-code/off-white",
+      "selling_out_of_stock": false,
+      "release_date": null
+    },
+    "image": {
+      "id": null,
+      "src": "https://cdn.dooca.store/292/products/hjpibvgjhu562cs1dodxtzu9lgxzc8ghs0fm.jpg?v=1702898083",
+      "alt": null,
+      "position": null
+    },
+    "grid_id": "5515111-6762",
+    "release_date": null,
+    "created_at": "2023-12-18 08:14:52"
+  }
+]
