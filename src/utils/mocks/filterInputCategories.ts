@@ -30,6 +30,10 @@ export const filterInputCategories = [
   {
     name: 'Caveira',
     slug: 'caveira',
+  },
+  {
+    name: 'RPG e Board Game',
+    slug: 'rpg',
   }
 ]
 
@@ -43,8 +47,8 @@ export const TendenciesCategories = [
     slug: 'games',
   },
   {
-    name: 'Informática',
-    slug: 'informatica',
+    name: 'RPG e Board Game',
+    slug: 'rpg',
   },
   {
     name: 'Pets',
