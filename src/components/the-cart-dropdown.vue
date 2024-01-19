@@ -2,6 +2,7 @@
 import { Trash2 } from 'lucide-vue-next';
 import CartItem from './the-cart-item.vue';
 import { useCartStore } from '@/stores/useCartStore';
+import FadeTransition from './the-fade-transition.vue';
 
 defineEmits(['close'])
 
@@ -15,31 +16,33 @@ const storeCart = useCartStore()
     @mouseleave="$emit('close')">
     <section v-if="storeCart.cart.length > 0"
       class="flex max-h-60 flex-col items-center justify-start space-y-6 overflow-y-auto scrollbar-hide md:max-h-[26rem]">
-      <CartItem v-for="item in storeCart.cart" :key="item.id">
-        <template #image>
-          <img :src="item.image" alt="image-product" class="block h-full w-full object-contain" />
-        </template>
+      <FadeTransition>
+        <CartItem v-for="item in storeCart.cart" :key="item.id">
+          <template #image>
+            <img :src="item.image" alt="image-product" class="block h-full w-full object-contain" />
+          </template>
 
-        <template #name>
-          {{ item.name }}
-        </template>
+          <template #name>
+            {{ item.name }}
+          </template>
 
-        <template #price>
-          {{ item.price.toLocaleString('pt-BR', {
-            currency: 'BRL',
-            style: 'currency'
-          }) }}
-        </template>
+          <template #price>
+            {{ item.price.toLocaleString('pt-BR', {
+              currency: 'BRL',
+              style: 'currency'
+            }) }}
+          </template>
 
-        <template #quantity>
-          {{ item.quantity }}
-        </template>
+          <template #quantity>
+            {{ item.quantity }}
+          </template>
 
-        <template #close-icon>
-          <Trash2 @click="storeCart.removeItem(item.id)"
-            class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
-        </template>
-      </CartItem>
+          <template #close-icon>
+            <Trash2 @click="storeCart.removeItem(item.id)"
+              class="absolute right-0 top-3 h-5 w-5 cursor-pointer opacity-70 md:top-1" />
+          </template>
+        </CartItem>
+      </FadeTransition>
     </section>
 
     <div v-else class="my-20">Sem itens no carrinho</div>

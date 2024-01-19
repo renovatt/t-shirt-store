@@ -3,6 +3,7 @@ import type { CartItem } from '@/@types';
 import CartCheckoutItem from '@/components/the-cart-checkout-item.vue';
 import CartCheckout from '@/components/the-cart-checkout.vue';
 import DefaultHeader from '@/components/the-default-header.vue';
+import FadeTransition from '@/components/the-fade-transition.vue';
 import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingCart } from 'lucide-vue-next';
 import { computed } from 'vue';
@@ -34,31 +35,33 @@ const formatCartItemTotalAsCurrency = (item: CartItem) => {
 
       <article class="flex w-full flex-col items-start justify-between gap-4 md:flex-row">
         <section class="w-full space-y-4 overflow-y-auto scrollbar-hide md:w-2/3">
-          <CartCheckoutItem v-for="item in storeCart.cart" :key="item.id">
-            <template #image>
-              <img :src="item.image" :alt="item.name" class="block h-full w-full object-contain">
-            </template>
+          <FadeTransition>
+            <CartCheckoutItem v-for="item in storeCart.cart" :key="item.id">
+              <template #image>
+                <img :src="item.image" :alt="item.name" class="block h-full w-full object-contain">
+              </template>
 
-            <template #price-color>
-              {{ item.color }} / {{ item.size }}
-            </template>
+              <template #price-color>
+                {{ item.color }} / {{ item.size }}
+              </template>
 
-            <template #name>
-              {{ item.name }}
-            </template>
+              <template #name>
+                {{ item.name }}
+              </template>
 
-            <template #remove>
-              <span @click="storeCart.removeItem(item.id)">Remover</span>
-            </template>
+              <template #remove>
+                <span @click="storeCart.removeItem(item.id)">Remover</span>
+              </template>
 
-            <template #quantity>
-              x{{ item.quantity }}
-            </template>
+              <template #quantity>
+                x{{ item.quantity }}
+              </template>
 
-            <template #total-price>
-              {{ formatCartItemTotalAsCurrency(item).value }}
-            </template>
-          </CartCheckoutItem>
+              <template #total-price>
+                {{ formatCartItemTotalAsCurrency(item).value }}
+              </template>
+            </CartCheckoutItem>
+          </FadeTransition>
         </section>
 
         <section class="w-full rounded-lg bg-700/5 p-6 md:w-96">
