@@ -1,25 +1,18 @@
 import { defineStore } from "pinia";
-import { ref } from "vue";
 
-export const useSizesStore = defineStore("useSizesStore", () => {
-  const sizes = ref<string[]>([]);
-
-  function setSizes(newSizes: string[]) {
-    sizes.value = newSizes;
+export const useSizesStore = defineStore("useSizesStore", {
+  state: () => ({
+    sizes: [] as string[]
+  }),
+  actions: {
+    setSizes(newSizes: string[]) {
+      this.sizes = newSizes;
+    },
+    removeSize(size: string) {
+      this.sizes = this.sizes.filter((s) => s !== size);
+    },
+    clearSizes() {
+      this.sizes = [];
+    }
   }
-
-  function removeSize(size: string) {
-    sizes.value = sizes.value.filter((c) => c !== size);
-  }
-
-  function clearSizes() {
-    sizes.value = [];
-  }
-
-  return {
-    setSizes,
-    removeSize,
-    clearSizes,
-    sizes
-  }
-})
+});
