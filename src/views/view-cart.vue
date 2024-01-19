@@ -5,11 +5,13 @@ import CartCheckout from '@/components/the-cart-checkout.vue';
 import DefaultHeader from '@/components/the-default-header.vue';
 import FadeTransition from '@/components/the-fade-transition.vue';
 import ImageSkeleton from '@/components/the-image-skeleton.vue';
+import { usePageTitle } from '@/composables/useTitle';
 import { useCartStore } from '@/stores/useCartStore';
 import { ShoppingCart } from 'lucide-vue-next';
 import { computed } from 'vue';
 
 const storeCart = useCartStore()
+usePageTitle('Carrinho')
 
 const formatCartItemTotalAsCurrency = (item: CartItem) => {
   return computed(() => {

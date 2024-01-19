@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import DefaultHeader from '@/components/the-default-header.vue';
+import { usePageTitle } from '@/composables/useTitle';
+
+usePageTitle('Login')
+
 </script>
 
 <template>
