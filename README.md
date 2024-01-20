@@ -1,46 +1,106 @@
-# groove-clothing-e-commerce
+<div align='center'>
+  <img src="./src/assets/logo.png" width="150px">
+</div>
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🏋️‍♂️ Sobre o Projeto
 
-## Recommended IDE Setup
+### Bem-vindo à ``T-Shirt-Store``, o seu e-commerce de camisetas com estampas incríveis, abrangendo estilos como Animes, Pets, Músicas, Tecnologia e Games. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support for `.vue` Imports in TS
+### Contamos com um design incrível e suave para proporcionar a melhor experiência ao usuário.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+### Explore facilmente nosso catálogo:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- Classifique as camisetas por categorias.
+- Filtre por cor e tamanho.
+- Realize pesquisas por palavras-chave, alinhadas às tags das camisetas.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Recursos adicionais incluem:
 
-## Customize configuration
+- Pré-visualização das camisetas antes de adicioná-las ao carrinho.
+- Escolha de quantidade e tamanho durante a visualização.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Dentro do carrinho:
 
-## Project Setup
+- Visualize os itens selecionados.
+- Obtenha o total de cada item automaticamente com base na quantidade.
+- Remova itens conforme necessário, com atualização automática do total.
+- Desfrute de uma experiência de compra intuitiva e personalizada na T-Shirt-Store!
+
+[Ver Projeto](https://t-shirt-store-one.vercel.app/) 🚀
+
+## 🎨 Visual do Projeto
+
+### ***Web Layout***
+
+![Web-1](/public/web-1.png) 
+![Web-2](/public/web-2.png)
+![Web-3](/public/web-3.png)
+![Web-4](/public/web-4.png)
+![Web-5](/public/web-5.png)
+![Web-6](/public/web-6.png)
+![Web-7](/public/web-7.png)
+![Web-8](/public/web-8.png)
+
+### ***Mobile Layout***
+![Mobile-1](/public/mobile-1.png)
+![Mobile-2](/public/mobile-2.png)
+![Mobile-3](/public/mobile-3.png)
+![Mobile-4](/public/mobile-4.png)
+![Mobile-5](/public/mobile-5.png)
+![Mobile-6](/public/mobile-6.png)
+![Mobile-7](/public/mobile-7.png)
+![Mobile-8](/public/mobile-8.png)
+![Mobile-9](/public/mobile-9.png)
+
+## 🛠️ Tecnologias
+
+💻 **Front-end**
+- [Vue.js 3.3.11](https://vuejs.org/)
+- [Typescript](https://www.typescriptlang.org)
+- [Vite](https://vitejs.dev/)
+
+📚 **Bibliotecas**
+- [pinia](https://pinia.vuejs.org/getting-started.html)
+- [vueuse](https://vueuse.org/)
+
+🎨 **Estilização**
+- [tailwindcss](https://tailwindcss.com/docs/installation)
+- [lucide](https://lucide.dev/)
+
+🔋 **Versionamento e Deploy**
+- [Git](https://git-scm.com)
+- [Vercel](https://vercel.com/)
+
+## ⚙️ Configurações e Instalação
 
 ```sh
+# clonando o projeto
+git clone https://github.com/renovatt/t-shirt-store.git
+```
+
+```sh
+# Instalando as dependências
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
+# Compilar e abrir o programa para desenvolvimento
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
 ```sh
+# Compilar e minificar para produção
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+🚀 **Como contribuir?**
 
-```sh
-npm run lint
-```
+- Siga-me no GitHub para oferecer suporte.
+- Dê uma estrela ao projeto.
+- Conecte-se comigo no LinkedIn para expandir nossa rede e curta o projeto.
+
+<br>
+
+🧑‍💻 **Criado por**
+[@renovatt](https://www.linkedin.com/in/renovatt/)
