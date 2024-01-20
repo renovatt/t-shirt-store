@@ -51,7 +51,6 @@
 ![Mobile-6](/public/mobile-6.png)
 ![Mobile-7](/public/mobile-7.png)
 ![Mobile-8](/public/mobile-8.png)
-![Mobile-9](/public/mobile-9.png)
 
 ## 🛠️ Tecnologias
 
